@@ -1,0 +1,7 @@
+{
+	"threerealms": {
+		"mod": "https://raw.githubusercontent.com/oysteinludvigsen/threerealms/main/mod.json",
+		"download": "https://github.com/oysteinludvigsen/threerealms/archive/refs/heads/main.zip",
+		"downloadSize": 25.3
+	}
+}
