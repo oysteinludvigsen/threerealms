@@ -2,7 +2,7 @@
 	"name": "Three Realms",
 	"description": "Expansion with three new factions: Pagoda, Sepulcher and Mycelium. Work in progress.",
 	"author": "Three Realms team",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"modType": "Expansion",
 	"compatibility": {
 		"min": "1.7.0"
