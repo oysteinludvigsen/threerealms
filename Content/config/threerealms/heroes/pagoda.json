@@ -1,0 +1,802 @@
+{
+	"takeda": {
+		"class": "daimyo",
+		"female": false,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "ashigaru"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero00Large.png",
+			"small": "threerealms/pagoda/hero00Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero00SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero00SpecSmall.png"
+		},
+		"texts": {
+			"name": "Takeda",
+			"biography": "Takeda drilled his province's farmers until a line of their spears could stop any charge.",
+			"specialty": {
+				"name": "Ashigaru",
+				"description": "Increases the Attack and Defense of any Ashigaru and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Ashigaru"
+			}
+		}
+	},
+	"tomoe": {
+		"class": "daimyo",
+		"female": true,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "offence"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero01Large.png",
+			"small": "threerealms/pagoda/hero01Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero01SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero01SpecSmall.png"
+		},
+		"texts": {
+			"name": "Tomoe",
+			"biography": "Tomoe led the vanguard in nine campaigns and has never been unhorsed.",
+			"specialty": {
+				"name": "Offense",
+				"description": "Receives a 5% per level bonus to the Offense skill.",
+				"tooltip": "Offense"
+			}
+		}
+	},
+	"hanzo": {
+		"class": "daimyo",
+		"female": false,
+		"skills": [
+			{
+				"skill": "logistics",
+				"level": "basic"
+			},
+			{
+				"skill": "scouting",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "logistics"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero02Large.png",
+			"small": "threerealms/pagoda/hero02Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero02SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero02SpecSmall.png"
+		},
+		"texts": {
+			"name": "Hanzo",
+			"biography": "Hanzo knows every goat path in the eastern peaks and marches his clan along them by night.",
+			"specialty": {
+				"name": "Logistics",
+				"description": "Receives a 5% per level bonus to the Logistics skill.",
+				"tooltip": "Logistics"
+			}
+		}
+	},
+	"benkei": {
+		"class": "daimyo",
+		"female": false,
+		"skills": [
+			{
+				"skill": "armorer",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"secondary": "armorer"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero03Large.png",
+			"small": "threerealms/pagoda/hero03Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero03SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero03SpecSmall.png"
+		},
+		"texts": {
+			"name": "Benkei",
+			"biography": "The warrior monk Benkei once held a bridge alone against an army, and kept their blades as trophies.",
+			"specialty": {
+				"name": "Armorer",
+				"description": "Receives a 5% per level bonus to the Armorer skill.",
+				"tooltip": "Armorer"
+			}
+		}
+	},
+	"kappamaru": {
+		"class": "daimyo",
+		"female": false,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "kappa"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero04Large.png",
+			"small": "threerealms/pagoda/hero04Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero04SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero04SpecSmall.png"
+		},
+		"texts": {
+			"name": "Kawataro",
+			"biography": "Kawataro won a wrestling match against the river and the kappa have followed him since.",
+			"specialty": {
+				"name": "Kappas",
+				"description": "Increases the Attack and Defense of any Kappas and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Kappas"
+			}
+		}
+	},
+	"sojobo": {
+		"class": "daimyo",
+		"female": false,
+		"skills": [
+			{
+				"skill": "tactics",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "tengu"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero05Large.png",
+			"small": "threerealms/pagoda/hero05Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero05SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero05SpecSmall.png"
+		},
+		"texts": {
+			"name": "Sojobo",
+			"biography": "King of the tengu of Mount Kurama, who taught swordsmanship to princes.",
+			"specialty": {
+				"name": "Tengu",
+				"description": "Increases the Attack and Defense of any Tengu and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Tengu"
+			}
+		}
+	},
+	"shuten": {
+		"class": "daimyo",
+		"female": false,
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"creature": "oni"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero06Large.png",
+			"small": "threerealms/pagoda/hero06Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero06SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero06SpecSmall.png"
+		},
+		"texts": {
+			"name": "Shuten",
+			"biography": "Shuten drank with the oni of the passes until they called him their chieftain.",
+			"specialty": {
+				"name": "Oni",
+				"description": "Increases the Attack and Defense of any Oni and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Oni"
+			}
+		}
+	},
+	"masako": {
+		"class": "daimyo",
+		"female": true,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "archery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "archery"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero07Large.png",
+			"small": "threerealms/pagoda/hero07Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero07SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero07SpecSmall.png"
+		},
+		"texts": {
+			"name": "Masako",
+			"biography": "Called the Nun Shogun. Lords who would not kneel to her husband knelt to her.",
+			"specialty": {
+				"name": "Archery",
+				"description": "Receives a 5% per level bonus to the Archery skill.",
+				"tooltip": "Archery"
+			}
+		}
+	},
+	"seimei": {
+		"class": "onmyoji",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "sorcery"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero08Large.png",
+			"small": "threerealms/pagoda/hero08Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero08SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero08SpecSmall.png"
+		},
+		"texts": {
+			"name": "Seimei",
+			"biography": "Greatest of the court diviners. It is said his mother was a fox.",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Receives a 5% per level bonus to the Sorcery skill.",
+				"tooltip": "Sorcery"
+			}
+		},
+		"spellbook": [
+			"lightningBolt"
+		]
+	},
+	"kuzunoha": {
+		"class": "onmyoji",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "luck",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "kitsune"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero09Large.png",
+			"small": "threerealms/pagoda/hero09Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero09SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero09SpecSmall.png"
+		},
+		"texts": {
+			"name": "Kuzunoha",
+			"biography": "A fox spirit who lived as a woman for love, and still watches over her shrine.",
+			"specialty": {
+				"name": "Kitsune",
+				"description": "Increases the Attack and Defense of any Kitsune and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Kitsune"
+			}
+		},
+		"spellbook": [
+			"bless"
+		]
+	},
+	"himiko": {
+		"class": "onmyoji",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "mysticism"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero10Large.png",
+			"small": "threerealms/pagoda/hero10Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero10SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero10SpecSmall.png"
+		},
+		"texts": {
+			"name": "Himiko",
+			"biography": "Shaman-queen of the old kingdom, who ruled from behind a curtain and spoke with the dead.",
+			"specialty": {
+				"name": "Mysticism",
+				"description": "Receives a 5% per level bonus to the Mysticism skill.",
+				"tooltip": "Mysticism"
+			}
+		},
+		"spellbook": [
+			"cure"
+		]
+	},
+	"raiden": {
+		"class": "onmyoji",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "airMagic",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "kirin"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero11Large.png",
+			"small": "threerealms/pagoda/hero11Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero11SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero11SpecSmall.png"
+		},
+		"texts": {
+			"name": "Raiden",
+			"biography": "A storm caller whose temple drum can be heard two valleys away. Kirin answer it.",
+			"specialty": {
+				"name": "Kirin",
+				"description": "Increases the Attack and Defense of any Kirin and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Kirin"
+			}
+		},
+		"spellbook": [
+			"haste"
+		]
+	},
+	"ryujin": {
+		"class": "onmyoji",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "jadeDragon"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero12Large.png",
+			"small": "threerealms/pagoda/hero12Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero12SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero12SpecSmall.png"
+		},
+		"texts": {
+			"name": "Otohime",
+			"biography": "Daughter of the Dragon King, sent to the peaks as his envoy.",
+			"specialty": {
+				"name": "Jade Dragons",
+				"description": "Increases the Attack and Defense of any Jade Dragons and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Jade Dragons"
+			}
+		},
+		"spellbook": [
+			"shield"
+		]
+	},
+	"jofuku": {
+		"class": "onmyoji",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "scholar",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "intelligence"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero13Large.png",
+			"small": "threerealms/pagoda/hero13Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero13SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero13SpecSmall.png"
+		},
+		"texts": {
+			"name": "Jofuku",
+			"biography": "An alchemist who sailed east to find the elixir of life and found the Pagoda clans instead.",
+			"specialty": {
+				"name": "Intelligence",
+				"description": "Receives a 5% per level bonus to the Intelligence skill.",
+				"tooltip": "Intelligence"
+			}
+		},
+		"spellbook": [
+			"magicArrow"
+		]
+	},
+	"yuki": {
+		"class": "onmyoji",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "diplomacy",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "diplomacy"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero14Large.png",
+			"small": "threerealms/pagoda/hero14Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero14SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero14SpecSmall.png"
+		},
+		"texts": {
+			"name": "Yuki",
+			"biography": "A snow maiden of the high passes. Travellers who meet her either die or are spared; none know why.",
+			"specialty": {
+				"name": "Diplomacy",
+				"description": "Receives a 5% per level bonus to the Diplomacy skill.",
+				"tooltip": "Diplomacy"
+			}
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"enno": {
+		"class": "onmyoji",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "firstAid",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "resistance"
+		},
+		"army": [
+			{
+				"creature": "ashigaru",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "kappa",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "tengu",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/pagoda/hero15Large.png",
+			"small": "threerealms/pagoda/hero15Small.png",
+			"specialtyLarge": "threerealms/pagoda/hero15SpecLarge.png",
+			"specialtySmall": "threerealms/pagoda/hero15SpecSmall.png"
+		},
+		"texts": {
+			"name": "En no Gyoja",
+			"biography": "The first mountain ascetic. Two oni carry his water and firewood.",
+			"specialty": {
+				"name": "Resistance",
+				"description": "Receives a 5% per level bonus to the Resistance skill.",
+				"tooltip": "Resistance"
+			}
+		},
+		"spellbook": [
+			"stoneSkin"
+		]
+	}
+}

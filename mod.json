@@ -1,0 +1,33 @@
+{
+	"name": "Three Realms",
+	"description": "Expansion with three new factions: Pagoda, Sepulcher and Mycelium. Work in progress.",
+	"author": "Three Realms team",
+	"version": "0.4.0",
+	"modType": "Expansion",
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"factions": [
+		"config/threerealms/factions/pagoda.json",
+		"config/threerealms/factions/sepulcher.json",
+		"config/threerealms/factions/mycelium.json"
+	],
+	"creatures": [
+		"config/threerealms/creatures/pagoda.json",
+		"config/threerealms/creatures/sepulcher.json",
+		"config/threerealms/creatures/mycelium.json"
+	],
+	"heroClasses": [
+		"config/threerealms/heroClasses/pagoda.json",
+		"config/threerealms/heroClasses/sepulcher.json",
+		"config/threerealms/heroClasses/mycelium.json"
+	],
+	"heroes": [
+		"config/threerealms/heroes/pagoda.json",
+		"config/threerealms/heroes/sepulcher.json",
+		"config/threerealms/heroes/mycelium.json"
+	],
+	"spells": [
+		"config/threerealms/spells/threerealms.json"
+	]
+}

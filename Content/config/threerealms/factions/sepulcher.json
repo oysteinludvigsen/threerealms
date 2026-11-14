@@ -1,0 +1,1309 @@
+{
+	"sepulcher": {
+		"name": "Sepulcher",
+		"description": "An ancient desert kingdom ruled by its priesthood: slow, costly troops that are almost impossible to dislodge.",
+		"alignment": "good",
+		"nativeTerrain": "sand",
+		"boat": "boatCastle",
+		"creatureBackground": {
+			"120px": "TPCASNEU",
+			"130px": "CRBKGNEU"
+		},
+		"puzzleMap": {
+			"prefix": "PUZCAS",
+			"pieces": [
+				{
+					"x": 7,
+					"y": 8,
+					"index": 39
+				},
+				{
+					"x": 7,
+					"y": 30,
+					"index": 41
+				},
+				{
+					"x": 7,
+					"y": 102,
+					"index": 1
+				},
+				{
+					"x": 7,
+					"y": 156,
+					"index": 23
+				},
+				{
+					"x": 7,
+					"y": 202,
+					"index": 6
+				},
+				{
+					"x": 7,
+					"y": 320,
+					"index": 13
+				},
+				{
+					"x": 16,
+					"y": 8,
+					"index": 39
+				},
+				{
+					"x": 22,
+					"y": 406,
+					"index": 2
+				},
+				{
+					"x": 70,
+					"y": 301,
+					"index": 22
+				},
+				{
+					"x": 72,
+					"y": 194,
+					"index": 11
+				},
+				{
+					"x": 101,
+					"y": 332,
+					"index": 8
+				},
+				{
+					"x": 106,
+					"y": 8,
+					"index": 9
+				},
+				{
+					"x": 106,
+					"y": 31,
+					"index": 29
+				},
+				{
+					"x": 114,
+					"y": 60,
+					"index": 7
+				},
+				{
+					"x": 126,
+					"y": 329,
+					"index": 17
+				},
+				{
+					"x": 128,
+					"y": 191,
+					"index": 21
+				},
+				{
+					"x": 152,
+					"y": 347,
+					"index": 27
+				},
+				{
+					"x": 154,
+					"y": 239,
+					"index": 31
+				},
+				{
+					"x": 157,
+					"y": 429,
+					"index": 34
+				},
+				{
+					"x": 166,
+					"y": 470,
+					"index": 4
+				},
+				{
+					"x": 185,
+					"y": 127,
+					"index": 30
+				},
+				{
+					"x": 212,
+					"y": 335,
+					"index": 36
+				},
+				{
+					"x": 214,
+					"y": 191,
+					"index": 48
+				},
+				{
+					"x": 217,
+					"y": 226,
+					"index": 43
+				},
+				{
+					"x": 235,
+					"y": 147,
+					"index": 35
+				},
+				{
+					"x": 245,
+					"y": 77,
+					"index": 16
+				},
+				{
+					"x": 266,
+					"y": 384,
+					"index": 42
+				},
+				{
+					"x": 288,
+					"y": 288,
+					"index": 45
+				},
+				{
+					"x": 298,
+					"y": 8,
+					"index": 26
+				},
+				{
+					"x": 321,
+					"y": 177,
+					"index": 46
+				},
+				{
+					"x": 346,
+					"y": 67,
+					"index": 38
+				},
+				{
+					"x": 354,
+					"y": 459,
+					"index": 20
+				},
+				{
+					"x": 355,
+					"y": 397,
+					"index": 25
+				},
+				{
+					"x": 375,
+					"y": 162,
+					"index": 28
+				},
+				{
+					"x": 382,
+					"y": 255,
+					"index": 32
+				},
+				{
+					"x": 408,
+					"y": 32,
+					"index": 37
+				},
+				{
+					"x": 408,
+					"y": 111,
+					"index": 14
+				},
+				{
+					"x": 421,
+					"y": 147,
+					"index": 19
+				},
+				{
+					"x": 422,
+					"y": 466,
+					"index": 12
+				},
+				{
+					"x": 426,
+					"y": 8,
+					"index": 15
+				},
+				{
+					"x": 436,
+					"y": 238,
+					"index": 24
+				},
+				{
+					"x": 458,
+					"y": 336,
+					"index": 44
+				},
+				{
+					"x": 486,
+					"y": 8,
+					"index": 40
+				},
+				{
+					"x": 487,
+					"y": 144,
+					"index": 33
+				},
+				{
+					"x": 517,
+					"y": 145,
+					"index": 18
+				},
+				{
+					"x": 520,
+					"y": 68,
+					"index": 5
+				},
+				{
+					"x": 524,
+					"y": 234,
+					"index": 10
+				},
+				{
+					"x": 525,
+					"y": 327,
+					"index": 3
+				}
+			]
+		},
+		"town": {
+			"mapObject": {
+				"templates": {
+					"castle": {
+						"animation": "threerealms/sepulcher/AVCTOWN.def"
+					},
+					"citadel": {
+						"animation": "threerealms/sepulcher/AVCTOWN.def"
+					},
+					"fort": {
+						"animation": "threerealms/sepulcher/AVCTOWN.def"
+					},
+					"village": {
+						"animation": "threerealms/sepulcher/AVCTOWN.def"
+					},
+					"capitol": {
+						"animation": "threerealms/sepulcher/AVCTOWN.def"
+					}
+				}
+			},
+			"structures": {
+				"villageHall": {
+					"animation": "threerealms/sepulcher/TBPG00.json",
+					"x": 428,
+					"y": 104,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGhall.png",
+					"area": "threerealms/sepulcher/TZPGhall.png"
+				},
+				"townHall": {
+					"animation": "threerealms/sepulcher/TBPG01.json",
+					"x": 428,
+					"y": 104,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGhall.png",
+					"area": "threerealms/sepulcher/TZPGhall.png"
+				},
+				"cityHall": {
+					"animation": "threerealms/sepulcher/TBPG02.json",
+					"x": 428,
+					"y": 104,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGhall.png",
+					"area": "threerealms/sepulcher/TZPGhall.png"
+				},
+				"capitol": {
+					"animation": "threerealms/sepulcher/TBPG03.json",
+					"x": 428,
+					"y": 104,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGhall.png",
+					"area": "threerealms/sepulcher/TZPGhall.png"
+				},
+				"fort": {
+					"animation": "threerealms/sepulcher/TBPG04.json",
+					"x": 74,
+					"y": 243,
+					"z": 2,
+					"border": "threerealms/sepulcher/TOPGfort.png",
+					"area": "threerealms/sepulcher/TZPGfort.png"
+				},
+				"citadel": {
+					"animation": "threerealms/sepulcher/TBPG05.json",
+					"x": 74,
+					"y": 243,
+					"z": 2,
+					"border": "threerealms/sepulcher/TOPGfort.png",
+					"area": "threerealms/sepulcher/TZPGfort.png"
+				},
+				"castle": {
+					"animation": "threerealms/sepulcher/TBPG06.json",
+					"x": 74,
+					"y": 243,
+					"z": 2,
+					"border": "threerealms/sepulcher/TOPGfort.png",
+					"area": "threerealms/sepulcher/TZPGfort.png"
+				},
+				"mageGuild1": {
+					"animation": "threerealms/sepulcher/TBPG07.json",
+					"x": 271,
+					"y": 102,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGmage.png",
+					"area": "threerealms/sepulcher/TZPGmage.png"
+				},
+				"mageGuild2": {
+					"animation": "threerealms/sepulcher/TBPG08.json",
+					"x": 271,
+					"y": 102,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGmage.png",
+					"area": "threerealms/sepulcher/TZPGmage.png"
+				},
+				"mageGuild3": {
+					"animation": "threerealms/sepulcher/TBPG09.json",
+					"x": 271,
+					"y": 102,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGmage.png",
+					"area": "threerealms/sepulcher/TZPGmage.png"
+				},
+				"mageGuild4": {
+					"animation": "threerealms/sepulcher/TBPG10.json",
+					"x": 271,
+					"y": 102,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGmage.png",
+					"area": "threerealms/sepulcher/TZPGmage.png"
+				},
+				"tavern": {
+					"animation": "threerealms/sepulcher/TBPG11.json",
+					"x": 398,
+					"y": 207,
+					"z": 3,
+					"border": "threerealms/sepulcher/TOPGtavern.png",
+					"area": "threerealms/sepulcher/TZPGtavern.png"
+				},
+				"marketplace": {
+					"animation": "threerealms/sepulcher/TBPG12.json",
+					"x": 475,
+					"y": 247,
+					"z": 3,
+					"border": "threerealms/sepulcher/TOPGmarketplace.png",
+					"area": "threerealms/sepulcher/TZPGmarketplace.png"
+				},
+				"resourceSilo": {
+					"animation": "threerealms/sepulcher/TBPG13.json",
+					"x": 614,
+					"y": 83,
+					"z": 4,
+					"border": "threerealms/sepulcher/TOPGresourceSilo.png",
+					"area": "threerealms/sepulcher/TZPGresourceSilo.png"
+				},
+				"blacksmith": {
+					"animation": "threerealms/sepulcher/TBPG14.json",
+					"x": 525,
+					"y": 218,
+					"z": 3,
+					"border": "threerealms/sepulcher/TOPGblacksmith.png",
+					"area": "threerealms/sepulcher/TZPGblacksmith.png"
+				},
+				"special1": {
+					"animation": "threerealms/sepulcher/TBPG15.json",
+					"x": 400,
+					"y": 84,
+					"z": 4,
+					"border": "threerealms/sepulcher/TOPGspecial1.png",
+					"area": "threerealms/sepulcher/TZPGspecial1.png"
+				},
+				"special2": {
+					"animation": "threerealms/sepulcher/TBPG16.json",
+					"x": 18,
+					"y": 116,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGspecial2.png",
+					"area": "threerealms/sepulcher/TZPGspecial2.png"
+				},
+				"horde1": {
+					"animation": "threerealms/sepulcher/TBPG17.json",
+					"x": 120,
+					"y": 140,
+					"z": 5,
+					"border": "threerealms/sepulcher/TOPGhorde1.png",
+					"area": "threerealms/sepulcher/TZPGhorde1.png",
+					"hidden": true
+				},
+				"horde1Upgr": {
+					"animation": "threerealms/sepulcher/TBPG18.json",
+					"x": 120,
+					"y": 140,
+					"z": 5,
+					"border": "threerealms/sepulcher/TOPGhorde1.png",
+					"area": "threerealms/sepulcher/TZPGhorde1.png",
+					"builds": "horde1",
+					"hidden": true
+				},
+				"grail": {
+					"animation": "threerealms/sepulcher/TBPG19.json",
+					"x": 512,
+					"y": 0,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGgrail.png",
+					"area": "threerealms/sepulcher/TZPGgrail.png"
+				},
+				"dwellingLvl1": {
+					"animation": "threerealms/sepulcher/TBPG20.json",
+					"x": 253,
+					"y": 189,
+					"z": 5,
+					"border": "threerealms/sepulcher/TOPGdw1.png",
+					"area": "threerealms/sepulcher/TZPGdw1.png"
+				},
+				"dwellingLvl2": {
+					"animation": "threerealms/sepulcher/TBPG21.json",
+					"x": 309,
+					"y": 103,
+					"z": 2,
+					"border": "threerealms/sepulcher/TOPGdw2.png",
+					"area": "threerealms/sepulcher/TZPGdw2.png"
+				},
+				"dwellingLvl3": {
+					"animation": "threerealms/sepulcher/TBPG22.json",
+					"x": 687,
+					"y": 114,
+					"z": 0,
+					"border": "threerealms/sepulcher/TOPGdw3.png",
+					"area": "threerealms/sepulcher/TZPGdw3.png"
+				},
+				"dwellingLvl4": {
+					"animation": "threerealms/sepulcher/TBPG23.json",
+					"x": 311,
+					"y": 122,
+					"z": 0,
+					"border": "threerealms/sepulcher/TOPGdw4.png",
+					"area": "threerealms/sepulcher/TZPGdw4.png"
+				},
+				"dwellingLvl5": {
+					"animation": "threerealms/sepulcher/TBPG24.json",
+					"x": 435,
+					"y": 112,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGdw5.png",
+					"area": "threerealms/sepulcher/TZPGdw5.png"
+				},
+				"dwellingLvl6": {
+					"animation": "threerealms/sepulcher/TBPG25.json",
+					"x": 525,
+					"y": 146,
+					"z": 0,
+					"border": "threerealms/sepulcher/TOPGdw6.png",
+					"area": "threerealms/sepulcher/TZPGdw6.png"
+				},
+				"dwellingLvl7": {
+					"animation": "threerealms/sepulcher/TBPG26.json",
+					"x": 431,
+					"y": 30,
+					"z": -1,
+					"border": "threerealms/sepulcher/TOPGdw7.png",
+					"area": "threerealms/sepulcher/TZPGdw7.png"
+				},
+				"dwellingUpLvl1": {
+					"animation": "threerealms/sepulcher/TBPG27.json",
+					"x": 253,
+					"y": 189,
+					"z": 5,
+					"border": "threerealms/sepulcher/TOPGdw1.png",
+					"area": "threerealms/sepulcher/TZPGdw1.png"
+				},
+				"dwellingUpLvl2": {
+					"animation": "threerealms/sepulcher/TBPG28.json",
+					"x": 309,
+					"y": 103,
+					"z": 2,
+					"border": "threerealms/sepulcher/TOPGdw2.png",
+					"area": "threerealms/sepulcher/TZPGdw2.png"
+				},
+				"dwellingUpLvl3": {
+					"animation": "threerealms/sepulcher/TBPG29.json",
+					"x": 687,
+					"y": 114,
+					"z": 0,
+					"border": "threerealms/sepulcher/TOPGdw3.png",
+					"area": "threerealms/sepulcher/TZPGdw3.png"
+				},
+				"dwellingUpLvl4": {
+					"animation": "threerealms/sepulcher/TBPG30.json",
+					"x": 311,
+					"y": 122,
+					"z": 0,
+					"border": "threerealms/sepulcher/TOPGdw4.png",
+					"area": "threerealms/sepulcher/TZPGdw4.png"
+				},
+				"dwellingUpLvl5": {
+					"animation": "threerealms/sepulcher/TBPG31.json",
+					"x": 435,
+					"y": 112,
+					"z": 1,
+					"border": "threerealms/sepulcher/TOPGdw5.png",
+					"area": "threerealms/sepulcher/TZPGdw5.png"
+				},
+				"dwellingUpLvl6": {
+					"animation": "threerealms/sepulcher/TBPG32.json",
+					"x": 525,
+					"y": 146,
+					"z": 0,
+					"border": "threerealms/sepulcher/TOPGdw6.png",
+					"area": "threerealms/sepulcher/TZPGdw6.png"
+				},
+				"dwellingUpLvl7": {
+					"animation": "threerealms/sepulcher/TBPG33.json",
+					"x": 431,
+					"y": 30,
+					"z": -1,
+					"border": "threerealms/sepulcher/TOPGdw7.png",
+					"area": "threerealms/sepulcher/TZPGdw7.png"
+				}
+			},
+			"musicTheme": [
+				"music/CstleTown"
+			],
+			"defaultTavern": 5,
+			"tavernVideo": "TAVERN.BIK",
+			"guildBackground": [
+				"TPMAGE.bmp"
+			],
+			"guildWindow": [
+				"TPMAGECS.bmp"
+			],
+			"guildSpellPositions": [
+				[
+					{
+						"x": 222,
+						"y": 445
+					},
+					{
+						"x": 312,
+						"y": 445
+					},
+					{
+						"x": 402,
+						"y": 445
+					},
+					{
+						"x": 520,
+						"y": 445
+					},
+					{
+						"x": 610,
+						"y": 445
+					},
+					{
+						"x": 700,
+						"y": 445
+					}
+				],
+				[
+					{
+						"x": 48,
+						"y": 53
+					},
+					{
+						"x": 48,
+						"y": 147
+					},
+					{
+						"x": 48,
+						"y": 241
+					},
+					{
+						"x": 48,
+						"y": 335
+					},
+					{
+						"x": 48,
+						"y": 429
+					}
+				],
+				[
+					{
+						"x": 570,
+						"y": 82
+					},
+					{
+						"x": 672,
+						"y": 82
+					},
+					{
+						"x": 570,
+						"y": 157
+					},
+					{
+						"x": 672,
+						"y": 157
+					}
+				],
+				[
+					{
+						"x": 183,
+						"y": 42
+					},
+					{
+						"x": 183,
+						"y": 148
+					},
+					{
+						"x": 183,
+						"y": 253
+					}
+				]
+			],
+			"guildWindowPosition": {
+				"x": 332,
+				"y": 76
+			},
+			"townBackground": "threerealms/sepulcher/TBPGBACK.png",
+			"buildingsIcons": "threerealms/sepulcher/HALLICON.def",
+			"hallBackground": "TPTHBKCS.BMP",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"special1"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"scarab",
+					"gildedScarab"
+				],
+				[
+					"jackal",
+					"jackalGuard"
+				],
+				[
+					"priestess",
+					"sunOracle"
+				],
+				[
+					"statue",
+					"obsidianStatue"
+				],
+				[
+					"uraeus",
+					"royalUraeus"
+				],
+				[
+					"ammit",
+					"ammitDevourer"
+				],
+				[
+					"sphinx",
+					"royalSphinx"
+				]
+			],
+			"horde": [
+				0,
+				-1
+			],
+			"mageGuild": 4,
+			"primaryResource": "sulfur",
+			"moatAbility": "castleMoat",
+			"names": [
+				"Akhet",
+				"Mennefer",
+				"Waset",
+				"Iunu",
+				"Abdju",
+				"Khemenu",
+				"Djanet",
+				"Per-Bast",
+				"Sais",
+				"Nekhen",
+				"Zawty",
+				"Swenett",
+				"Tjenu",
+				"Behdet",
+				"Henen",
+				"Ipet"
+			],
+			"icons": {
+				"village": {
+					"normal": {
+						"small": "threerealms/sepulcher/townVillageSmall.png",
+						"large": "threerealms/sepulcher/townVillageLarge.png"
+					},
+					"built": {
+						"small": "threerealms/sepulcher/townVillageBuiltSmall.png",
+						"large": "threerealms/sepulcher/townVillageBuiltLarge.png"
+					}
+				},
+				"fort": {
+					"normal": {
+						"small": "threerealms/sepulcher/townFortSmall.png",
+						"large": "threerealms/sepulcher/townFortLarge.png"
+					},
+					"built": {
+						"small": "threerealms/sepulcher/townFortBuiltSmall.png",
+						"large": "threerealms/sepulcher/townFortBuiltLarge.png"
+					}
+				}
+			},
+			"buildings": {
+				"villageHall": {
+					"name": "Village Hall",
+					"description": "The Village Hall lets you build other structures and earns 500 gold per day.",
+					"cost": {}
+				},
+				"townHall": {
+					"name": "Town Hall",
+					"description": "The Town Hall earns 1000 gold per day.",
+					"cost": {
+						"gold": 2500
+					}
+				},
+				"cityHall": {
+					"name": "City Hall",
+					"description": "The City Hall earns 2000 gold per day.",
+					"cost": {
+						"gold": 5000
+					}
+				},
+				"capitol": {
+					"name": "Capitol",
+					"description": "The Capitol earns 4000 gold per day. You may have only one.",
+					"cost": {
+						"gold": 10000
+					}
+				},
+				"fort": {
+					"name": "Sand Wall",
+					"description": "The Sand Wall gives the town defensive walls and lets you raise creature dwellings.",
+					"cost": {
+						"gold": 5000,
+						"wood": 20,
+						"ore": 20
+					}
+				},
+				"citadel": {
+					"name": "Guard Towers",
+					"description": "The Guard Towers adds a keep and a moat and increases creature growth by 50%.",
+					"cost": {
+						"gold": 2500,
+						"ore": 5
+					}
+				},
+				"castle": {
+					"name": "Pylon Fortress",
+					"description": "The Pylon Fortress adds two arrow towers, strengthens the walls and doubles base creature growth.",
+					"cost": {
+						"gold": 5000,
+						"wood": 10,
+						"ore": 10
+					}
+				},
+				"tavern": {
+					"name": "Beer House",
+					"description": "The Beer House lets you recruit heroes and hear rumours, and raises the morale of the garrison.",
+					"cost": {
+						"gold": 500,
+						"wood": 5
+					}
+				},
+				"blacksmith": {
+					"name": "Chariot Works",
+					"description": "The Chariot Works supplies your armies with war machines.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5
+					},
+					"warMachine": "ballista"
+				},
+				"marketplace": {
+					"name": "Bazaar",
+					"description": "The Bazaar lets you trade resources. Rates improve with every Bazaar you own.",
+					"cost": {
+						"gold": 500,
+						"wood": 5
+					}
+				},
+				"resourceSilo": {
+					"name": "Brimstone Pit",
+					"description": "The Brimstone Pit provides one additional sulfur each day.",
+					"cost": {
+						"gold": 5000,
+						"ore": 5
+					},
+					"produce": {
+						"sulfur": 1
+					}
+				},
+				"mageGuild1": {
+					"name": "House of Life, Level 1",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"ore": 5
+					}
+				},
+				"mageGuild2": {
+					"name": "House of Life, Level 2",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 4,
+						"sulfur": 4,
+						"crystal": 4
+					}
+				},
+				"mageGuild3": {
+					"name": "House of Life, Level 3",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 6,
+						"sulfur": 6,
+						"crystal": 6
+					}
+				},
+				"mageGuild4": {
+					"name": "House of Life, Level 4",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 8,
+						"sulfur": 8,
+						"crystal": 8
+					}
+				},
+				"special1": {
+					"name": "Obelisk of Ra",
+					"description": "The Obelisk of Ra grants +2 morale to heroes defending the town.",
+					"cost": {
+						"gold": 1500,
+						"wood": 5
+					},
+					"requires": [
+						"marketplace"
+					],
+					"bonuses": [
+						{
+							"type": "MORALE",
+							"val": 2
+						}
+					]
+				},
+				"special2": {
+					"name": "Oasis",
+					"description": "A hero who visits the Oasis gains +1 Knowledge, once.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"blacksmith"
+					],
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "@core.genrltxt.581",
+								"primary": {
+									"knowledge": 1
+								}
+							}
+						]
+					}
+				},
+				"horde1": {
+					"name": "Hatching Pits",
+					"description": "The Hatching Pits increases Scarabs production by 8 per week.",
+					"cost": {
+						"gold": 1000
+					},
+					"requires": [
+						"dwellingLvl1"
+					],
+					"upgrades": "dwellingLvl1"
+				},
+				"horde1Upgr": {
+					"name": "Hatching Pits",
+					"description": "The Hatching Pits increases Gilded Scarabs production by 8 per week.",
+					"cost": {
+						"gold": 1000
+					},
+					"requires": [
+						"horde1"
+					],
+					"upgrades": "dwellingUpLvl1"
+				},
+				"grail": {
+					"name": "Sun Disk of Aten",
+					"description": "The Sun Disk earns 5000 gold per day, increases creature growth by 50% and gives all your heroes +2 morale.",
+					"cost": {},
+					"bonuses": [
+						{
+							"type": "MORALE",
+							"val": 2,
+							"propagator": "PLAYER"
+						}
+					]
+				},
+				"dwellingLvl1": {
+					"name": "Scarab Nest",
+					"description": "The Scarab Nest lets you recruit Scarabs.",
+					"cost": {
+						"gold": 400,
+						"wood": 5
+					},
+					"requires": [
+						"fort"
+					]
+				},
+				"dwellingUpLvl1": {
+					"name": "Gilded Nest",
+					"description": "The Gilded Nest lets you recruit Gilded Scarabs.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5
+					},
+					"upgrades": "dwellingLvl1"
+				},
+				"dwellingLvl2": {
+					"name": "Jackal Barracks",
+					"description": "The Jackal Barracks lets you recruit Jackal Warriors.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingUpLvl2": {
+					"name": "Hall of Anubis",
+					"description": "The Hall of Anubis lets you recruit Jackal Guards.",
+					"cost": {
+						"gold": 1200,
+						"wood": 5
+					},
+					"upgrades": "dwellingLvl2"
+				},
+				"dwellingLvl3": {
+					"name": "Sun Chapel",
+					"description": "The Sun Chapel lets you recruit Sun Priestesses.",
+					"cost": {
+						"gold": 1500,
+						"ore": 5
+					},
+					"requires": [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingUpLvl3": {
+					"name": "Temple of the Sun",
+					"description": "The Temple of the Sun lets you recruit Sun Oracles.",
+					"cost": {
+						"gold": 1500,
+						"ore": 5,
+						"sulfur": 2
+					},
+					"upgrades": "dwellingLvl3"
+				},
+				"dwellingLvl4": {
+					"name": "Sculptors' Yard",
+					"description": "The Sculptors' Yard lets you recruit Living Statues.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"sulfur": 3
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						]
+					]
+				},
+				"dwellingUpLvl4": {
+					"name": "Obsidian Quarry",
+					"description": "The Obsidian Quarry lets you recruit Obsidian Statues.",
+					"cost": {
+						"gold": 2000,
+						"sulfur": 5
+					},
+					"upgrades": "dwellingLvl4",
+					"requires": [
+						"mageGuild1"
+					]
+				},
+				"dwellingLvl5": {
+					"name": "Serpent Shrine",
+					"description": "The Serpent Shrine lets you recruit Uraei.",
+					"cost": {
+						"gold": 3000,
+						"wood": 5,
+						"ore": 10
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"blacksmith"
+						]
+					]
+				},
+				"dwellingUpLvl5": {
+					"name": "Crown Shrine",
+					"description": "The Crown Shrine lets you recruit Royal Uraei.",
+					"cost": {
+						"gold": 2500,
+						"ore": 5,
+						"sulfur": 5
+					},
+					"upgrades": "dwellingLvl5"
+				},
+				"dwellingLvl6": {
+					"name": "Devourer's Pit",
+					"description": "The Devourer's Pit lets you recruit Ammits.",
+					"cost": {
+						"gold": 5000,
+						"wood": 10,
+						"ore": 10,
+						"crystal": 5,
+						"sulfur": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl6": {
+					"name": "Hall of Judgement",
+					"description": "The Hall of Judgement lets you recruit Ammit Devourers.",
+					"cost": {
+						"gold": 4000,
+						"crystal": 5,
+						"sulfur": 5
+					},
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingLvl7": {
+					"name": "Great Pyramid",
+					"description": "The Great Pyramid lets you recruit Sphinxes.",
+					"cost": {
+						"gold": 12000,
+						"ore": 20,
+						"sulfur": 15
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"mageGuild2"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Pyramid of Riddles",
+					"description": "The Pyramid of Riddles lets you recruit Royal Sphinxes.",
+					"cost": {
+						"gold": 18000,
+						"ore": 20,
+						"sulfur": 20
+					},
+					"upgrades": "dwellingLvl7",
+					"requires": [
+						"mageGuild3"
+					]
+				},
+				"mageGuild5": null,
+				"shipyard": null,
+				"ship": null,
+				"special3": null,
+				"special4": null,
+				"horde2": null,
+				"horde2Upgr": null
+			},
+			"siege": {
+				"shooter": "priestess",
+				"imagePrefix": "SGCS",
+				"gate": {
+					"arch": {
+						"x": 477,
+						"y": 238
+					},
+					"gate": {
+						"x": 399,
+						"y": 274
+					}
+				},
+				"moat": {
+					"bank": {
+						"x": 403,
+						"y": 80
+					},
+					"moat": {
+						"x": 410,
+						"y": 90
+					}
+				},
+				"static": {
+					"background": {
+						"x": 600,
+						"y": 49
+					},
+					"bottom": {
+						"x": 512,
+						"y": 347
+					},
+					"top": {
+						"x": 489,
+						"y": 79
+					}
+				},
+				"towers": {
+					"bottom": {
+						"battlement": {
+							"x": 602,
+							"y": 500
+						},
+						"creature": {
+							"x": 394,
+							"y": 299
+						},
+						"tower": {
+							"x": 602,
+							"y": 500
+						}
+					},
+					"keep": {
+						"battlement": {
+							"x": 720,
+							"y": 158
+						},
+						"creature": {
+							"x": 526,
+							"y": -29
+						},
+						"tower": {
+							"x": 720,
+							"y": 158
+						}
+					},
+					"top": {
+						"battlement": {
+							"x": 557,
+							"y": 24
+						},
+						"creature": {
+							"x": 342,
+							"y": -187
+						},
+						"tower": {
+							"x": 569,
+							"y": 35
+						}
+					}
+				},
+				"walls": {
+					"bottom": {
+						"x": 528,
+						"y": 350
+					},
+					"bottomMid": {
+						"x": 469,
+						"y": 291
+					},
+					"upper": {
+						"x": 524,
+						"y": 32
+					},
+					"upperMid": {
+						"x": 470,
+						"y": 127
+					}
+				},
+				"towerIconLarge": "threerealms/sepulcher/priestessLarge.png",
+				"towerIconSmall": "threerealms/sepulcher/priestessSmall.png"
+			}
+		}
+	}
+}

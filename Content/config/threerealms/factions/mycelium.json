@@ -1,0 +1,1310 @@
+{
+	"mycelium": {
+		"name": "Mycelium",
+		"description": "A kingdom without a king beneath the earth. Its troops are cheap and many, and nearly all of them poison or weaken what they touch.",
+		"alignment": "evil",
+		"nativeTerrain": "subterra",
+		"boat": "boatCastle",
+		"creatureBackground": {
+			"120px": "TPCASNEU",
+			"130px": "CRBKGNEU"
+		},
+		"puzzleMap": {
+			"prefix": "PUZCAS",
+			"pieces": [
+				{
+					"x": 7,
+					"y": 8,
+					"index": 39
+				},
+				{
+					"x": 7,
+					"y": 30,
+					"index": 41
+				},
+				{
+					"x": 7,
+					"y": 102,
+					"index": 1
+				},
+				{
+					"x": 7,
+					"y": 156,
+					"index": 23
+				},
+				{
+					"x": 7,
+					"y": 202,
+					"index": 6
+				},
+				{
+					"x": 7,
+					"y": 320,
+					"index": 13
+				},
+				{
+					"x": 16,
+					"y": 8,
+					"index": 39
+				},
+				{
+					"x": 22,
+					"y": 406,
+					"index": 2
+				},
+				{
+					"x": 70,
+					"y": 301,
+					"index": 22
+				},
+				{
+					"x": 72,
+					"y": 194,
+					"index": 11
+				},
+				{
+					"x": 101,
+					"y": 332,
+					"index": 8
+				},
+				{
+					"x": 106,
+					"y": 8,
+					"index": 9
+				},
+				{
+					"x": 106,
+					"y": 31,
+					"index": 29
+				},
+				{
+					"x": 114,
+					"y": 60,
+					"index": 7
+				},
+				{
+					"x": 126,
+					"y": 329,
+					"index": 17
+				},
+				{
+					"x": 128,
+					"y": 191,
+					"index": 21
+				},
+				{
+					"x": 152,
+					"y": 347,
+					"index": 27
+				},
+				{
+					"x": 154,
+					"y": 239,
+					"index": 31
+				},
+				{
+					"x": 157,
+					"y": 429,
+					"index": 34
+				},
+				{
+					"x": 166,
+					"y": 470,
+					"index": 4
+				},
+				{
+					"x": 185,
+					"y": 127,
+					"index": 30
+				},
+				{
+					"x": 212,
+					"y": 335,
+					"index": 36
+				},
+				{
+					"x": 214,
+					"y": 191,
+					"index": 48
+				},
+				{
+					"x": 217,
+					"y": 226,
+					"index": 43
+				},
+				{
+					"x": 235,
+					"y": 147,
+					"index": 35
+				},
+				{
+					"x": 245,
+					"y": 77,
+					"index": 16
+				},
+				{
+					"x": 266,
+					"y": 384,
+					"index": 42
+				},
+				{
+					"x": 288,
+					"y": 288,
+					"index": 45
+				},
+				{
+					"x": 298,
+					"y": 8,
+					"index": 26
+				},
+				{
+					"x": 321,
+					"y": 177,
+					"index": 46
+				},
+				{
+					"x": 346,
+					"y": 67,
+					"index": 38
+				},
+				{
+					"x": 354,
+					"y": 459,
+					"index": 20
+				},
+				{
+					"x": 355,
+					"y": 397,
+					"index": 25
+				},
+				{
+					"x": 375,
+					"y": 162,
+					"index": 28
+				},
+				{
+					"x": 382,
+					"y": 255,
+					"index": 32
+				},
+				{
+					"x": 408,
+					"y": 32,
+					"index": 37
+				},
+				{
+					"x": 408,
+					"y": 111,
+					"index": 14
+				},
+				{
+					"x": 421,
+					"y": 147,
+					"index": 19
+				},
+				{
+					"x": 422,
+					"y": 466,
+					"index": 12
+				},
+				{
+					"x": 426,
+					"y": 8,
+					"index": 15
+				},
+				{
+					"x": 436,
+					"y": 238,
+					"index": 24
+				},
+				{
+					"x": 458,
+					"y": 336,
+					"index": 44
+				},
+				{
+					"x": 486,
+					"y": 8,
+					"index": 40
+				},
+				{
+					"x": 487,
+					"y": 144,
+					"index": 33
+				},
+				{
+					"x": 517,
+					"y": 145,
+					"index": 18
+				},
+				{
+					"x": 520,
+					"y": 68,
+					"index": 5
+				},
+				{
+					"x": 524,
+					"y": 234,
+					"index": 10
+				},
+				{
+					"x": 525,
+					"y": 327,
+					"index": 3
+				}
+			]
+		},
+		"town": {
+			"mapObject": {
+				"templates": {
+					"castle": {
+						"animation": "threerealms/mycelium/AVCTOWN.def"
+					},
+					"citadel": {
+						"animation": "threerealms/mycelium/AVCTOWN.def"
+					},
+					"fort": {
+						"animation": "threerealms/mycelium/AVCTOWN.def"
+					},
+					"village": {
+						"animation": "threerealms/mycelium/AVCTOWN.def"
+					},
+					"capitol": {
+						"animation": "threerealms/mycelium/AVCTOWN.def"
+					}
+				}
+			},
+			"structures": {
+				"villageHall": {
+					"animation": "threerealms/mycelium/TBPG00.json",
+					"x": 389,
+					"y": 130,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGhall.png",
+					"area": "threerealms/mycelium/TZPGhall.png"
+				},
+				"townHall": {
+					"animation": "threerealms/mycelium/TBPG01.json",
+					"x": 389,
+					"y": 130,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGhall.png",
+					"area": "threerealms/mycelium/TZPGhall.png"
+				},
+				"cityHall": {
+					"animation": "threerealms/mycelium/TBPG02.json",
+					"x": 389,
+					"y": 130,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGhall.png",
+					"area": "threerealms/mycelium/TZPGhall.png"
+				},
+				"capitol": {
+					"animation": "threerealms/mycelium/TBPG03.json",
+					"x": 389,
+					"y": 130,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGhall.png",
+					"area": "threerealms/mycelium/TZPGhall.png"
+				},
+				"fort": {
+					"animation": "threerealms/mycelium/TBPG04.json",
+					"x": 301,
+					"y": 170,
+					"z": 2,
+					"border": "threerealms/mycelium/TOPGfort.png",
+					"area": "threerealms/mycelium/TZPGfort.png"
+				},
+				"citadel": {
+					"animation": "threerealms/mycelium/TBPG05.json",
+					"x": 301,
+					"y": 170,
+					"z": 2,
+					"border": "threerealms/mycelium/TOPGfort.png",
+					"area": "threerealms/mycelium/TZPGfort.png"
+				},
+				"castle": {
+					"animation": "threerealms/mycelium/TBPG06.json",
+					"x": 301,
+					"y": 170,
+					"z": 2,
+					"border": "threerealms/mycelium/TOPGfort.png",
+					"area": "threerealms/mycelium/TZPGfort.png"
+				},
+				"mageGuild1": {
+					"animation": "threerealms/mycelium/TBPG07.json",
+					"x": 644,
+					"y": 244,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGmage.png",
+					"area": "threerealms/mycelium/TZPGmage.png"
+				},
+				"mageGuild2": {
+					"animation": "threerealms/mycelium/TBPG08.json",
+					"x": 644,
+					"y": 244,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGmage.png",
+					"area": "threerealms/mycelium/TZPGmage.png"
+				},
+				"mageGuild3": {
+					"animation": "threerealms/mycelium/TBPG09.json",
+					"x": 644,
+					"y": 244,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGmage.png",
+					"area": "threerealms/mycelium/TZPGmage.png"
+				},
+				"mageGuild4": {
+					"animation": "threerealms/mycelium/TBPG10.json",
+					"x": 644,
+					"y": 244,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGmage.png",
+					"area": "threerealms/mycelium/TZPGmage.png"
+				},
+				"tavern": {
+					"animation": "threerealms/mycelium/TBPG11.json",
+					"x": 88,
+					"y": 131,
+					"z": 3,
+					"border": "threerealms/mycelium/TOPGtavern.png",
+					"area": "threerealms/mycelium/TZPGtavern.png"
+				},
+				"marketplace": {
+					"animation": "threerealms/mycelium/TBPG12.json",
+					"x": 526,
+					"y": 212,
+					"z": 3,
+					"border": "threerealms/mycelium/TOPGmarketplace.png",
+					"area": "threerealms/mycelium/TZPGmarketplace.png"
+				},
+				"resourceSilo": {
+					"animation": "threerealms/mycelium/TBPG13.json",
+					"x": 115,
+					"y": 310,
+					"z": 4,
+					"border": "threerealms/mycelium/TOPGresourceSilo.png",
+					"area": "threerealms/mycelium/TZPGresourceSilo.png"
+				},
+				"blacksmith": {
+					"animation": "threerealms/mycelium/TBPG14.json",
+					"x": 113,
+					"y": 227,
+					"z": 3,
+					"border": "threerealms/mycelium/TOPGblacksmith.png",
+					"area": "threerealms/mycelium/TZPGblacksmith.png"
+				},
+				"special1": {
+					"animation": "threerealms/mycelium/TBPG15.json",
+					"x": 19,
+					"y": 158,
+					"z": 4,
+					"border": "threerealms/mycelium/TOPGspecial1.png",
+					"area": "threerealms/mycelium/TZPGspecial1.png"
+				},
+				"special2": {
+					"animation": "threerealms/mycelium/TBPG16.json",
+					"x": 46,
+					"y": 27,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGspecial2.png",
+					"area": "threerealms/mycelium/TZPGspecial2.png"
+				},
+				"horde1": {
+					"animation": "threerealms/mycelium/TBPG17.json",
+					"x": 20,
+					"y": 80,
+					"z": 5,
+					"border": "threerealms/mycelium/TOPGhorde1.png",
+					"area": "threerealms/mycelium/TZPGhorde1.png",
+					"hidden": true
+				},
+				"horde1Upgr": {
+					"animation": "threerealms/mycelium/TBPG18.json",
+					"x": 20,
+					"y": 80,
+					"z": 5,
+					"border": "threerealms/mycelium/TOPGhorde1.png",
+					"area": "threerealms/mycelium/TZPGhorde1.png",
+					"builds": "horde1",
+					"hidden": true
+				},
+				"grail": {
+					"animation": "threerealms/mycelium/TBPG19.json",
+					"x": 310,
+					"y": 20,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGgrail.png",
+					"area": "threerealms/mycelium/TZPGgrail.png"
+				},
+				"dwellingLvl1": {
+					"animation": "threerealms/mycelium/TBPG20.json",
+					"x": 264,
+					"y": 263,
+					"z": 5,
+					"border": "threerealms/mycelium/TOPGdw1.png",
+					"area": "threerealms/mycelium/TZPGdw1.png"
+				},
+				"dwellingLvl2": {
+					"animation": "threerealms/mycelium/TBPG21.json",
+					"x": 475,
+					"y": 294,
+					"z": 2,
+					"border": "threerealms/mycelium/TOPGdw2.png",
+					"area": "threerealms/mycelium/TZPGdw2.png"
+				},
+				"dwellingLvl3": {
+					"animation": "threerealms/mycelium/TBPG22.json",
+					"x": 595,
+					"y": 132,
+					"z": 0,
+					"border": "threerealms/mycelium/TOPGdw3.png",
+					"area": "threerealms/mycelium/TZPGdw3.png"
+				},
+				"dwellingLvl4": {
+					"animation": "threerealms/mycelium/TBPG23.json",
+					"x": 532,
+					"y": 57,
+					"z": 0,
+					"border": "threerealms/mycelium/TOPGdw4.png",
+					"area": "threerealms/mycelium/TZPGdw4.png"
+				},
+				"dwellingLvl5": {
+					"animation": "threerealms/mycelium/TBPG24.json",
+					"x": 607,
+					"y": 195,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGdw5.png",
+					"area": "threerealms/mycelium/TZPGdw5.png"
+				},
+				"dwellingLvl6": {
+					"animation": "threerealms/mycelium/TBPG25.json",
+					"x": 500,
+					"y": 120,
+					"z": 0,
+					"border": "threerealms/mycelium/TOPGdw6.png",
+					"area": "threerealms/mycelium/TZPGdw6.png"
+				},
+				"dwellingLvl7": {
+					"animation": "threerealms/mycelium/TBPG26.json",
+					"x": 431,
+					"y": 2,
+					"z": -1,
+					"border": "threerealms/mycelium/TOPGdw7.png",
+					"area": "threerealms/mycelium/TZPGdw7.png"
+				},
+				"dwellingUpLvl1": {
+					"animation": "threerealms/mycelium/TBPG27.json",
+					"x": 264,
+					"y": 263,
+					"z": 5,
+					"border": "threerealms/mycelium/TOPGdw1.png",
+					"area": "threerealms/mycelium/TZPGdw1.png"
+				},
+				"dwellingUpLvl2": {
+					"animation": "threerealms/mycelium/TBPG28.json",
+					"x": 475,
+					"y": 294,
+					"z": 2,
+					"border": "threerealms/mycelium/TOPGdw2.png",
+					"area": "threerealms/mycelium/TZPGdw2.png"
+				},
+				"dwellingUpLvl3": {
+					"animation": "threerealms/mycelium/TBPG29.json",
+					"x": 595,
+					"y": 132,
+					"z": 0,
+					"border": "threerealms/mycelium/TOPGdw3.png",
+					"area": "threerealms/mycelium/TZPGdw3.png"
+				},
+				"dwellingUpLvl4": {
+					"animation": "threerealms/mycelium/TBPG30.json",
+					"x": 532,
+					"y": 57,
+					"z": 0,
+					"border": "threerealms/mycelium/TOPGdw4.png",
+					"area": "threerealms/mycelium/TZPGdw4.png"
+				},
+				"dwellingUpLvl5": {
+					"animation": "threerealms/mycelium/TBPG31.json",
+					"x": 607,
+					"y": 195,
+					"z": 1,
+					"border": "threerealms/mycelium/TOPGdw5.png",
+					"area": "threerealms/mycelium/TZPGdw5.png"
+				},
+				"dwellingUpLvl6": {
+					"animation": "threerealms/mycelium/TBPG32.json",
+					"x": 500,
+					"y": 120,
+					"z": 0,
+					"border": "threerealms/mycelium/TOPGdw6.png",
+					"area": "threerealms/mycelium/TZPGdw6.png"
+				},
+				"dwellingUpLvl7": {
+					"animation": "threerealms/mycelium/TBPG33.json",
+					"x": 431,
+					"y": 2,
+					"z": -1,
+					"border": "threerealms/mycelium/TOPGdw7.png",
+					"area": "threerealms/mycelium/TZPGdw7.png"
+				}
+			},
+			"musicTheme": [
+				"music/CstleTown"
+			],
+			"defaultTavern": 5,
+			"tavernVideo": "TAVERN.BIK",
+			"guildBackground": [
+				"TPMAGE.bmp"
+			],
+			"guildWindow": [
+				"TPMAGECS.bmp"
+			],
+			"guildSpellPositions": [
+				[
+					{
+						"x": 222,
+						"y": 445
+					},
+					{
+						"x": 312,
+						"y": 445
+					},
+					{
+						"x": 402,
+						"y": 445
+					},
+					{
+						"x": 520,
+						"y": 445
+					},
+					{
+						"x": 610,
+						"y": 445
+					},
+					{
+						"x": 700,
+						"y": 445
+					}
+				],
+				[
+					{
+						"x": 48,
+						"y": 53
+					},
+					{
+						"x": 48,
+						"y": 147
+					},
+					{
+						"x": 48,
+						"y": 241
+					},
+					{
+						"x": 48,
+						"y": 335
+					},
+					{
+						"x": 48,
+						"y": 429
+					}
+				],
+				[
+					{
+						"x": 570,
+						"y": 82
+					},
+					{
+						"x": 672,
+						"y": 82
+					},
+					{
+						"x": 570,
+						"y": 157
+					},
+					{
+						"x": 672,
+						"y": 157
+					}
+				],
+				[
+					{
+						"x": 183,
+						"y": 42
+					},
+					{
+						"x": 183,
+						"y": 148
+					},
+					{
+						"x": 183,
+						"y": 253
+					}
+				]
+			],
+			"guildWindowPosition": {
+				"x": 332,
+				"y": 76
+			},
+			"townBackground": "threerealms/mycelium/TBPGBACK.png",
+			"buildingsIcons": "threerealms/mycelium/HALLICON.def",
+			"hallBackground": "TPTHBKCS.BMP",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"special1"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"sporeling",
+					"sporeSwarm"
+				],
+				[
+					"creeper",
+					"blightCreeper"
+				],
+				[
+					"spitter",
+					"rotSpitter"
+				],
+				[
+					"mycelgolem",
+					"elderMycelgolem"
+				],
+				[
+					"rottroll",
+					"blightTroll"
+				],
+				[
+					"sporemother",
+					"sporeMatriarch"
+				],
+				[
+					"colossus",
+					"mycelialTitan"
+				]
+			],
+			"horde": [
+				0,
+				-1
+			],
+			"mageGuild": 4,
+			"primaryResource": "mercury",
+			"moatAbility": "castleMoat",
+			"names": [
+				"Hypha",
+				"Sporehold",
+				"Gloamcap",
+				"Rootdeep",
+				"Mirewort",
+				"Velvetgill",
+				"Underbloom",
+				"Dampmoor",
+				"Moldreach",
+				"Puffhollow",
+				"Blackspore",
+				"Glowmere",
+				"Threadhome",
+				"Rotwick",
+				"Capstead",
+				"Deepweave"
+			],
+			"icons": {
+				"village": {
+					"normal": {
+						"small": "threerealms/mycelium/townVillageSmall.png",
+						"large": "threerealms/mycelium/townVillageLarge.png"
+					},
+					"built": {
+						"small": "threerealms/mycelium/townVillageBuiltSmall.png",
+						"large": "threerealms/mycelium/townVillageBuiltLarge.png"
+					}
+				},
+				"fort": {
+					"normal": {
+						"small": "threerealms/mycelium/townFortSmall.png",
+						"large": "threerealms/mycelium/townFortLarge.png"
+					},
+					"built": {
+						"small": "threerealms/mycelium/townFortBuiltSmall.png",
+						"large": "threerealms/mycelium/townFortBuiltLarge.png"
+					}
+				}
+			},
+			"buildings": {
+				"villageHall": {
+					"name": "Village Hall",
+					"description": "The Village Hall lets you build other structures and earns 500 gold per day.",
+					"cost": {}
+				},
+				"townHall": {
+					"name": "Town Hall",
+					"description": "The Town Hall earns 1000 gold per day.",
+					"cost": {
+						"gold": 2500
+					}
+				},
+				"cityHall": {
+					"name": "City Hall",
+					"description": "The City Hall earns 2000 gold per day.",
+					"cost": {
+						"gold": 5000
+					}
+				},
+				"capitol": {
+					"name": "Capitol",
+					"description": "The Capitol earns 4000 gold per day. You may have only one.",
+					"cost": {
+						"gold": 10000
+					}
+				},
+				"fort": {
+					"name": "Root Wall",
+					"description": "The Root Wall gives the town defensive walls and lets you raise creature dwellings.",
+					"cost": {
+						"gold": 5000,
+						"wood": 20,
+						"ore": 20
+					}
+				},
+				"citadel": {
+					"name": "Thorn Keep",
+					"description": "The Thorn Keep adds a keep and a moat and increases creature growth by 50%.",
+					"cost": {
+						"gold": 2500,
+						"ore": 5
+					}
+				},
+				"castle": {
+					"name": "Great Cap Bastion",
+					"description": "The Great Cap Bastion adds two arrow towers, strengthens the walls and doubles base creature growth.",
+					"cost": {
+						"gold": 5000,
+						"wood": 10,
+						"ore": 10
+					}
+				},
+				"tavern": {
+					"name": "Mead Hollow",
+					"description": "The Mead Hollow lets you recruit heroes and hear rumours, and raises the morale of the garrison.",
+					"cost": {
+						"gold": 500,
+						"wood": 5
+					}
+				},
+				"blacksmith": {
+					"name": "Sap Works",
+					"description": "The Sap Works supplies your armies with war machines.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5
+					},
+					"warMachine": "firstAidTent"
+				},
+				"marketplace": {
+					"name": "Spore Market",
+					"description": "The Spore Market lets you trade resources. Rates improve with every Spore Market you own.",
+					"cost": {
+						"gold": 500,
+						"wood": 5
+					}
+				},
+				"resourceSilo": {
+					"name": "Quicksilver Seep",
+					"description": "The Quicksilver Seep provides one additional mercury each day.",
+					"cost": {
+						"gold": 5000,
+						"ore": 5
+					},
+					"produce": {
+						"mercury": 1
+					}
+				},
+				"mageGuild1": {
+					"name": "Whispering Pool, Level 1",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"ore": 5
+					}
+				},
+				"mageGuild2": {
+					"name": "Whispering Pool, Level 2",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 4,
+						"sulfur": 4,
+						"crystal": 4
+					}
+				},
+				"mageGuild3": {
+					"name": "Whispering Pool, Level 3",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 6,
+						"sulfur": 6,
+						"crystal": 6
+					}
+				},
+				"mageGuild4": {
+					"name": "Whispering Pool, Level 4",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 8,
+						"sulfur": 8,
+						"crystal": 8
+					}
+				},
+				"special1": {
+					"name": "Glowing Mere",
+					"description": "The Glowing Mere gives +2 Spell Power to heroes defending the town.",
+					"cost": {
+						"gold": 1500,
+						"wood": 5
+					},
+					"requires": [
+						"marketplace"
+					],
+					"bonuses": [
+						{
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.spellpower",
+							"val": 2
+						}
+					]
+				},
+				"special2": {
+					"name": "Deep Garden",
+					"description": "A hero who visits the Deep Garden gains +1 Defense, once.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"blacksmith"
+					],
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "@core.genrltxt.585",
+								"primary": {
+									"defence": 1
+								}
+							}
+						]
+					}
+				},
+				"horde1": {
+					"name": "Spawning Beds",
+					"description": "The Spawning Beds increases Sporelings production by 8 per week.",
+					"cost": {
+						"gold": 1000
+					},
+					"requires": [
+						"dwellingLvl1"
+					],
+					"upgrades": "dwellingLvl1"
+				},
+				"horde1Upgr": {
+					"name": "Spawning Beds",
+					"description": "The Spawning Beds increases Spore Swarms production by 8 per week.",
+					"cost": {
+						"gold": 1000
+					},
+					"requires": [
+						"horde1"
+					],
+					"upgrades": "dwellingUpLvl1"
+				},
+				"grail": {
+					"name": "Heart of the Network",
+					"description": "The Heart of the Network earns 5000 gold per day, increases creature growth by 50% and gives all your heroes +2 luck.",
+					"cost": {},
+					"bonuses": [
+						{
+							"type": "LUCK",
+							"val": 2,
+							"propagator": "PLAYER"
+						}
+					]
+				},
+				"dwellingLvl1": {
+					"name": "Spore Bed",
+					"description": "The Spore Bed lets you recruit Sporelings.",
+					"cost": {
+						"gold": 400,
+						"wood": 5
+					},
+					"requires": [
+						"fort"
+					]
+				},
+				"dwellingUpLvl1": {
+					"name": "Swarm Bed",
+					"description": "The Swarm Bed lets you recruit Spore Swarms.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5
+					},
+					"upgrades": "dwellingLvl1"
+				},
+				"dwellingLvl2": {
+					"name": "Creeper Hollow",
+					"description": "The Creeper Hollow lets you recruit Fungal Creepers.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingUpLvl2": {
+					"name": "Blight Hollow",
+					"description": "The Blight Hollow lets you recruit Blight Creepers.",
+					"cost": {
+						"gold": 1200,
+						"wood": 5
+					},
+					"upgrades": "dwellingLvl2"
+				},
+				"dwellingLvl3": {
+					"name": "Mold Burrow",
+					"description": "The Mold Burrow lets you recruit Mold Spitters.",
+					"cost": {
+						"gold": 1500,
+						"ore": 5
+					},
+					"requires": [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingUpLvl3": {
+					"name": "Rot Burrow",
+					"description": "The Rot Burrow lets you recruit Rot Spitters.",
+					"cost": {
+						"gold": 1500,
+						"ore": 5,
+						"mercury": 2
+					},
+					"upgrades": "dwellingLvl3"
+				},
+				"dwellingLvl4": {
+					"name": "Weaving Cave",
+					"description": "The Weaving Cave lets you recruit Mycel Golems.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"mercury": 3
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						]
+					]
+				},
+				"dwellingUpLvl4": {
+					"name": "Elder Weave",
+					"description": "The Elder Weave lets you recruit Elder Mycel Golems.",
+					"cost": {
+						"gold": 2000,
+						"mercury": 5
+					},
+					"upgrades": "dwellingLvl4",
+					"requires": [
+						"mageGuild1"
+					]
+				},
+				"dwellingLvl5": {
+					"name": "Troll Den",
+					"description": "The Troll Den lets you recruit Rot Trolls.",
+					"cost": {
+						"gold": 3000,
+						"wood": 5,
+						"ore": 10
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"blacksmith"
+						]
+					]
+				},
+				"dwellingUpLvl5": {
+					"name": "Blighted Den",
+					"description": "The Blighted Den lets you recruit Blight Trolls.",
+					"cost": {
+						"gold": 2500,
+						"ore": 5,
+						"sulfur": 5
+					},
+					"upgrades": "dwellingLvl5"
+				},
+				"dwellingLvl6": {
+					"name": "Mother's Grotto",
+					"description": "The Mother's Grotto lets you recruit Spore Mothers.",
+					"cost": {
+						"gold": 5000,
+						"wood": 10,
+						"ore": 10,
+						"crystal": 5,
+						"mercury": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl6": {
+					"name": "Matriarch's Grotto",
+					"description": "The Matriarch's Grotto lets you recruit Spore Matriarchs.",
+					"cost": {
+						"gold": 4000,
+						"crystal": 5,
+						"mercury": 5
+					},
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingLvl7": {
+					"name": "Colossus Cap",
+					"description": "The Colossus Cap lets you recruit Fungal Colossi.",
+					"cost": {
+						"gold": 12000,
+						"ore": 20,
+						"mercury": 15
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"mageGuild2"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Titan's Crown",
+					"description": "The Titan's Crown lets you recruit Mycelial Titans.",
+					"cost": {
+						"gold": 18000,
+						"ore": 20,
+						"mercury": 20
+					},
+					"upgrades": "dwellingLvl7",
+					"requires": [
+						"mageGuild3"
+					]
+				},
+				"mageGuild5": null,
+				"shipyard": null,
+				"ship": null,
+				"special3": null,
+				"special4": null,
+				"horde2": null,
+				"horde2Upgr": null
+			},
+			"siege": {
+				"shooter": "spitter",
+				"imagePrefix": "SGCS",
+				"gate": {
+					"arch": {
+						"x": 477,
+						"y": 238
+					},
+					"gate": {
+						"x": 399,
+						"y": 274
+					}
+				},
+				"moat": {
+					"bank": {
+						"x": 403,
+						"y": 80
+					},
+					"moat": {
+						"x": 410,
+						"y": 90
+					}
+				},
+				"static": {
+					"background": {
+						"x": 600,
+						"y": 49
+					},
+					"bottom": {
+						"x": 512,
+						"y": 347
+					},
+					"top": {
+						"x": 489,
+						"y": 79
+					}
+				},
+				"towers": {
+					"bottom": {
+						"battlement": {
+							"x": 602,
+							"y": 500
+						},
+						"creature": {
+							"x": 394,
+							"y": 299
+						},
+						"tower": {
+							"x": 602,
+							"y": 500
+						}
+					},
+					"keep": {
+						"battlement": {
+							"x": 720,
+							"y": 158
+						},
+						"creature": {
+							"x": 526,
+							"y": -29
+						},
+						"tower": {
+							"x": 720,
+							"y": 158
+						}
+					},
+					"top": {
+						"battlement": {
+							"x": 557,
+							"y": 24
+						},
+						"creature": {
+							"x": 342,
+							"y": -187
+						},
+						"tower": {
+							"x": 569,
+							"y": 35
+						}
+					}
+				},
+				"walls": {
+					"bottom": {
+						"x": 528,
+						"y": 350
+					},
+					"bottomMid": {
+						"x": 469,
+						"y": 291
+					},
+					"upper": {
+						"x": 524,
+						"y": 32
+					},
+					"upperMid": {
+						"x": 470,
+						"y": 127
+					}
+				},
+				"towerIconLarge": "threerealms/mycelium/spitterLarge.png",
+				"towerIconSmall": "threerealms/mycelium/spitterSmall.png"
+			}
+		}
+	}
+}

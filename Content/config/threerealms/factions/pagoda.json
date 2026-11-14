@@ -1,0 +1,1312 @@
+{
+	"pagoda": {
+		"name": "Pagoda",
+		"description": "Mountain clans of the eastern peaks: disciplined spearmen, river and mountain spirits, and the dragons of the heavenly court.",
+		"alignment": "neutral",
+		"nativeTerrain": "grass",
+		"boat": "boatCastle",
+		"creatureBackground": {
+			"120px": "TPCASNEU",
+			"130px": "CRBKGNEU"
+		},
+		"puzzleMap": {
+			"prefix": "PUZCAS",
+			"pieces": [
+				{
+					"x": 7,
+					"y": 8,
+					"index": 39
+				},
+				{
+					"x": 7,
+					"y": 30,
+					"index": 41
+				},
+				{
+					"x": 7,
+					"y": 102,
+					"index": 1
+				},
+				{
+					"x": 7,
+					"y": 156,
+					"index": 23
+				},
+				{
+					"x": 7,
+					"y": 202,
+					"index": 6
+				},
+				{
+					"x": 7,
+					"y": 320,
+					"index": 13
+				},
+				{
+					"x": 16,
+					"y": 8,
+					"index": 39
+				},
+				{
+					"x": 22,
+					"y": 406,
+					"index": 2
+				},
+				{
+					"x": 70,
+					"y": 301,
+					"index": 22
+				},
+				{
+					"x": 72,
+					"y": 194,
+					"index": 11
+				},
+				{
+					"x": 101,
+					"y": 332,
+					"index": 8
+				},
+				{
+					"x": 106,
+					"y": 8,
+					"index": 9
+				},
+				{
+					"x": 106,
+					"y": 31,
+					"index": 29
+				},
+				{
+					"x": 114,
+					"y": 60,
+					"index": 7
+				},
+				{
+					"x": 126,
+					"y": 329,
+					"index": 17
+				},
+				{
+					"x": 128,
+					"y": 191,
+					"index": 21
+				},
+				{
+					"x": 152,
+					"y": 347,
+					"index": 27
+				},
+				{
+					"x": 154,
+					"y": 239,
+					"index": 31
+				},
+				{
+					"x": 157,
+					"y": 429,
+					"index": 34
+				},
+				{
+					"x": 166,
+					"y": 470,
+					"index": 4
+				},
+				{
+					"x": 185,
+					"y": 127,
+					"index": 30
+				},
+				{
+					"x": 212,
+					"y": 335,
+					"index": 36
+				},
+				{
+					"x": 214,
+					"y": 191,
+					"index": 48
+				},
+				{
+					"x": 217,
+					"y": 226,
+					"index": 43
+				},
+				{
+					"x": 235,
+					"y": 147,
+					"index": 35
+				},
+				{
+					"x": 245,
+					"y": 77,
+					"index": 16
+				},
+				{
+					"x": 266,
+					"y": 384,
+					"index": 42
+				},
+				{
+					"x": 288,
+					"y": 288,
+					"index": 45
+				},
+				{
+					"x": 298,
+					"y": 8,
+					"index": 26
+				},
+				{
+					"x": 321,
+					"y": 177,
+					"index": 46
+				},
+				{
+					"x": 346,
+					"y": 67,
+					"index": 38
+				},
+				{
+					"x": 354,
+					"y": 459,
+					"index": 20
+				},
+				{
+					"x": 355,
+					"y": 397,
+					"index": 25
+				},
+				{
+					"x": 375,
+					"y": 162,
+					"index": 28
+				},
+				{
+					"x": 382,
+					"y": 255,
+					"index": 32
+				},
+				{
+					"x": 408,
+					"y": 32,
+					"index": 37
+				},
+				{
+					"x": 408,
+					"y": 111,
+					"index": 14
+				},
+				{
+					"x": 421,
+					"y": 147,
+					"index": 19
+				},
+				{
+					"x": 422,
+					"y": 466,
+					"index": 12
+				},
+				{
+					"x": 426,
+					"y": 8,
+					"index": 15
+				},
+				{
+					"x": 436,
+					"y": 238,
+					"index": 24
+				},
+				{
+					"x": 458,
+					"y": 336,
+					"index": 44
+				},
+				{
+					"x": 486,
+					"y": 8,
+					"index": 40
+				},
+				{
+					"x": 487,
+					"y": 144,
+					"index": 33
+				},
+				{
+					"x": 517,
+					"y": 145,
+					"index": 18
+				},
+				{
+					"x": 520,
+					"y": 68,
+					"index": 5
+				},
+				{
+					"x": 524,
+					"y": 234,
+					"index": 10
+				},
+				{
+					"x": 525,
+					"y": 327,
+					"index": 3
+				}
+			]
+		},
+		"town": {
+			"mapObject": {
+				"templates": {
+					"castle": {
+						"animation": "threerealms/pagoda/AVCTOWN.def"
+					},
+					"citadel": {
+						"animation": "threerealms/pagoda/AVCTOWN.def"
+					},
+					"fort": {
+						"animation": "threerealms/pagoda/AVCTOWN.def"
+					},
+					"village": {
+						"animation": "threerealms/pagoda/AVCTOWN.def"
+					},
+					"capitol": {
+						"animation": "threerealms/pagoda/AVCTOWN.def"
+					}
+				}
+			},
+			"structures": {
+				"villageHall": {
+					"animation": "threerealms/pagoda/TBPG00.json",
+					"x": 132,
+					"y": 103,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGhall.png",
+					"area": "threerealms/pagoda/TZPGhall.png"
+				},
+				"townHall": {
+					"animation": "threerealms/pagoda/TBPG01.json",
+					"x": 132,
+					"y": 103,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGhall.png",
+					"area": "threerealms/pagoda/TZPGhall.png"
+				},
+				"cityHall": {
+					"animation": "threerealms/pagoda/TBPG02.json",
+					"x": 132,
+					"y": 103,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGhall.png",
+					"area": "threerealms/pagoda/TZPGhall.png"
+				},
+				"capitol": {
+					"animation": "threerealms/pagoda/TBPG03.json",
+					"x": 132,
+					"y": 103,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGhall.png",
+					"area": "threerealms/pagoda/TZPGhall.png"
+				},
+				"fort": {
+					"animation": "threerealms/pagoda/TBPG04.json",
+					"x": 546,
+					"y": 127,
+					"z": 2,
+					"border": "threerealms/pagoda/TOPGfort.png",
+					"area": "threerealms/pagoda/TZPGfort.png"
+				},
+				"citadel": {
+					"animation": "threerealms/pagoda/TBPG05.json",
+					"x": 546,
+					"y": 127,
+					"z": 2,
+					"border": "threerealms/pagoda/TOPGfort.png",
+					"area": "threerealms/pagoda/TZPGfort.png"
+				},
+				"castle": {
+					"animation": "threerealms/pagoda/TBPG06.json",
+					"x": 546,
+					"y": 127,
+					"z": 2,
+					"border": "threerealms/pagoda/TOPGfort.png",
+					"area": "threerealms/pagoda/TZPGfort.png"
+				},
+				"mageGuild1": {
+					"animation": "threerealms/pagoda/TBPG07.json",
+					"x": 53,
+					"y": 112,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGmage.png",
+					"area": "threerealms/pagoda/TZPGmage.png"
+				},
+				"mageGuild2": {
+					"animation": "threerealms/pagoda/TBPG08.json",
+					"x": 53,
+					"y": 112,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGmage.png",
+					"area": "threerealms/pagoda/TZPGmage.png"
+				},
+				"mageGuild3": {
+					"animation": "threerealms/pagoda/TBPG09.json",
+					"x": 53,
+					"y": 112,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGmage.png",
+					"area": "threerealms/pagoda/TZPGmage.png"
+				},
+				"mageGuild4": {
+					"animation": "threerealms/pagoda/TBPG10.json",
+					"x": 53,
+					"y": 112,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGmage.png",
+					"area": "threerealms/pagoda/TZPGmage.png"
+				},
+				"tavern": {
+					"animation": "threerealms/pagoda/TBPG11.json",
+					"x": 105,
+					"y": 226,
+					"z": 3,
+					"border": "threerealms/pagoda/TOPGtavern.png",
+					"area": "threerealms/pagoda/TZPGtavern.png"
+				},
+				"marketplace": {
+					"animation": "threerealms/pagoda/TBPG12.json",
+					"x": 399,
+					"y": 206,
+					"z": 3,
+					"border": "threerealms/pagoda/TOPGmarketplace.png",
+					"area": "threerealms/pagoda/TZPGmarketplace.png"
+				},
+				"resourceSilo": {
+					"animation": "threerealms/pagoda/TBPG13.json",
+					"x": 0,
+					"y": 301,
+					"z": 4,
+					"border": "threerealms/pagoda/TOPGresourceSilo.png",
+					"area": "threerealms/pagoda/TZPGresourceSilo.png"
+				},
+				"blacksmith": {
+					"animation": "threerealms/pagoda/TBPG14.json",
+					"x": 0,
+					"y": 218,
+					"z": 3,
+					"border": "threerealms/pagoda/TOPGblacksmith.png",
+					"area": "threerealms/pagoda/TZPGblacksmith.png"
+				},
+				"special1": {
+					"animation": "threerealms/pagoda/TBPG15.json",
+					"x": 194,
+					"y": 260,
+					"z": 4,
+					"border": "threerealms/pagoda/TOPGspecial1.png",
+					"area": "threerealms/pagoda/TZPGspecial1.png"
+				},
+				"special2": {
+					"animation": "threerealms/pagoda/TBPG16.json",
+					"x": 444,
+					"y": 141,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGspecial2.png",
+					"area": "threerealms/pagoda/TZPGspecial2.png"
+				},
+				"horde1": {
+					"animation": "threerealms/pagoda/TBPG17.json",
+					"x": 464,
+					"y": 336,
+					"z": 5,
+					"border": "threerealms/pagoda/TOPGhorde1.png",
+					"area": "threerealms/pagoda/TZPGhorde1.png",
+					"hidden": true
+				},
+				"horde1Upgr": {
+					"animation": "threerealms/pagoda/TBPG18.json",
+					"x": 464,
+					"y": 336,
+					"z": 5,
+					"border": "threerealms/pagoda/TOPGhorde1.png",
+					"area": "threerealms/pagoda/TZPGhorde1.png",
+					"builds": "horde1",
+					"hidden": true
+				},
+				"grail": {
+					"animation": "threerealms/pagoda/TBPG19.json",
+					"x": 567,
+					"y": 157,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGgrail.png",
+					"area": "threerealms/pagoda/TZPGgrail.png"
+				},
+				"dwellingLvl1": {
+					"animation": "threerealms/pagoda/TBPG20.json",
+					"x": 328,
+					"y": 301,
+					"z": 5,
+					"border": "threerealms/pagoda/TOPGdw1.png",
+					"area": "threerealms/pagoda/TZPGdw1.png"
+				},
+				"dwellingLvl2": {
+					"animation": "threerealms/pagoda/TBPG21.json",
+					"x": 257,
+					"y": 189,
+					"z": 2,
+					"border": "threerealms/pagoda/TOPGdw2.png",
+					"area": "threerealms/pagoda/TZPGdw2.png"
+				},
+				"dwellingLvl3": {
+					"animation": "threerealms/pagoda/TBPG22.json",
+					"x": 224,
+					"y": 92,
+					"z": 0,
+					"border": "threerealms/pagoda/TOPGdw3.png",
+					"area": "threerealms/pagoda/TZPGdw3.png"
+				},
+				"dwellingLvl4": {
+					"animation": "threerealms/pagoda/TBPG23.json",
+					"x": 268,
+					"y": 126,
+					"z": 0,
+					"border": "threerealms/pagoda/TOPGdw4.png",
+					"area": "threerealms/pagoda/TZPGdw4.png"
+				},
+				"dwellingLvl5": {
+					"animation": "threerealms/pagoda/TBPG24.json",
+					"x": 488,
+					"y": 152,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGdw5.png",
+					"area": "threerealms/pagoda/TZPGdw5.png"
+				},
+				"dwellingLvl6": {
+					"animation": "threerealms/pagoda/TBPG25.json",
+					"x": 502,
+					"y": 105,
+					"z": 0,
+					"border": "threerealms/pagoda/TOPGdw6.png",
+					"area": "threerealms/pagoda/TZPGdw6.png"
+				},
+				"dwellingLvl7": {
+					"animation": "threerealms/pagoda/TBPG26.json",
+					"x": 331,
+					"y": 0,
+					"z": -1,
+					"border": "threerealms/pagoda/TOPGdw7.png",
+					"area": "threerealms/pagoda/TZPGdw7.png"
+				},
+				"dwellingUpLvl1": {
+					"animation": "threerealms/pagoda/TBPG27.json",
+					"x": 328,
+					"y": 301,
+					"z": 5,
+					"border": "threerealms/pagoda/TOPGdw1.png",
+					"area": "threerealms/pagoda/TZPGdw1.png"
+				},
+				"dwellingUpLvl2": {
+					"animation": "threerealms/pagoda/TBPG28.json",
+					"x": 257,
+					"y": 189,
+					"z": 2,
+					"border": "threerealms/pagoda/TOPGdw2.png",
+					"area": "threerealms/pagoda/TZPGdw2.png"
+				},
+				"dwellingUpLvl3": {
+					"animation": "threerealms/pagoda/TBPG29.json",
+					"x": 224,
+					"y": 92,
+					"z": 0,
+					"border": "threerealms/pagoda/TOPGdw3.png",
+					"area": "threerealms/pagoda/TZPGdw3.png"
+				},
+				"dwellingUpLvl4": {
+					"animation": "threerealms/pagoda/TBPG30.json",
+					"x": 268,
+					"y": 126,
+					"z": 0,
+					"border": "threerealms/pagoda/TOPGdw4.png",
+					"area": "threerealms/pagoda/TZPGdw4.png"
+				},
+				"dwellingUpLvl5": {
+					"animation": "threerealms/pagoda/TBPG31.json",
+					"x": 488,
+					"y": 152,
+					"z": 1,
+					"border": "threerealms/pagoda/TOPGdw5.png",
+					"area": "threerealms/pagoda/TZPGdw5.png"
+				},
+				"dwellingUpLvl6": {
+					"animation": "threerealms/pagoda/TBPG32.json",
+					"x": 502,
+					"y": 105,
+					"z": 0,
+					"border": "threerealms/pagoda/TOPGdw6.png",
+					"area": "threerealms/pagoda/TZPGdw6.png"
+				},
+				"dwellingUpLvl7": {
+					"animation": "threerealms/pagoda/TBPG33.json",
+					"x": 331,
+					"y": 0,
+					"z": -1,
+					"border": "threerealms/pagoda/TOPGdw7.png",
+					"area": "threerealms/pagoda/TZPGdw7.png"
+				}
+			},
+			"musicTheme": [
+				"music/CstleTown"
+			],
+			"defaultTavern": 5,
+			"tavernVideo": "TAVERN.BIK",
+			"guildBackground": [
+				"TPMAGE.bmp"
+			],
+			"guildWindow": [
+				"TPMAGECS.bmp"
+			],
+			"guildSpellPositions": [
+				[
+					{
+						"x": 222,
+						"y": 445
+					},
+					{
+						"x": 312,
+						"y": 445
+					},
+					{
+						"x": 402,
+						"y": 445
+					},
+					{
+						"x": 520,
+						"y": 445
+					},
+					{
+						"x": 610,
+						"y": 445
+					},
+					{
+						"x": 700,
+						"y": 445
+					}
+				],
+				[
+					{
+						"x": 48,
+						"y": 53
+					},
+					{
+						"x": 48,
+						"y": 147
+					},
+					{
+						"x": 48,
+						"y": 241
+					},
+					{
+						"x": 48,
+						"y": 335
+					},
+					{
+						"x": 48,
+						"y": 429
+					}
+				],
+				[
+					{
+						"x": 570,
+						"y": 82
+					},
+					{
+						"x": 672,
+						"y": 82
+					},
+					{
+						"x": 570,
+						"y": 157
+					},
+					{
+						"x": 672,
+						"y": 157
+					}
+				],
+				[
+					{
+						"x": 183,
+						"y": 42
+					},
+					{
+						"x": 183,
+						"y": 148
+					},
+					{
+						"x": 183,
+						"y": 253
+					}
+				]
+			],
+			"guildWindowPosition": {
+				"x": 332,
+				"y": 76
+			},
+			"townBackground": "threerealms/pagoda/TBPGBACK.png",
+			"buildingsIcons": "threerealms/pagoda/HALLICON.def",
+			"hallBackground": "TPTHBKCS.BMP",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"special1"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"ashigaru",
+					"samurai"
+				],
+				[
+					"kappa",
+					"kappaElder"
+				],
+				[
+					"tengu",
+					"daitengu"
+				],
+				[
+					"kitsune",
+					"nineTailedKitsune"
+				],
+				[
+					"oni",
+					"oniWarlord"
+				],
+				[
+					"kirin",
+					"thunderKirin"
+				],
+				[
+					"jadeDragon",
+					"celestialDragon"
+				]
+			],
+			"horde": [
+				0,
+				-1
+			],
+			"mageGuild": 4,
+			"primaryResource": "gems",
+			"moatAbility": "castleMoat",
+			"names": [
+				"Kamiyama",
+				"Hisui",
+				"Ryujin",
+				"Sakuragawa",
+				"Tengudani",
+				"Kirigamine",
+				"Aoyagi",
+				"Shirakawa",
+				"Tsukimori",
+				"Inari",
+				"Hoshizora",
+				"Kumogakure",
+				"Midorikawa",
+				"Takamagahara",
+				"Onigashima",
+				"Yamabuki"
+			],
+			"icons": {
+				"village": {
+					"normal": {
+						"small": "threerealms/pagoda/townVillageSmall.png",
+						"large": "threerealms/pagoda/townVillageLarge.png"
+					},
+					"built": {
+						"small": "threerealms/pagoda/townVillageBuiltSmall.png",
+						"large": "threerealms/pagoda/townVillageBuiltLarge.png"
+					}
+				},
+				"fort": {
+					"normal": {
+						"small": "threerealms/pagoda/townFortSmall.png",
+						"large": "threerealms/pagoda/townFortLarge.png"
+					},
+					"built": {
+						"small": "threerealms/pagoda/townFortBuiltSmall.png",
+						"large": "threerealms/pagoda/townFortBuiltLarge.png"
+					}
+				}
+			},
+			"buildings": {
+				"villageHall": {
+					"name": "Village Hall",
+					"description": "The Village Hall lets you build other structures and earns 500 gold per day.",
+					"cost": {}
+				},
+				"townHall": {
+					"name": "Town Hall",
+					"description": "The Town Hall earns 1000 gold per day.",
+					"cost": {
+						"gold": 2500
+					}
+				},
+				"cityHall": {
+					"name": "City Hall",
+					"description": "The City Hall earns 2000 gold per day.",
+					"cost": {
+						"gold": 5000
+					}
+				},
+				"capitol": {
+					"name": "Capitol",
+					"description": "The Capitol earns 4000 gold per day. You may have only one.",
+					"cost": {
+						"gold": 10000
+					}
+				},
+				"fort": {
+					"name": "Palisade",
+					"description": "The Palisade gives the town defensive walls and lets you raise creature dwellings.",
+					"cost": {
+						"gold": 5000,
+						"wood": 20,
+						"ore": 20
+					}
+				},
+				"citadel": {
+					"name": "Stone Keep",
+					"description": "The Stone Keep adds a keep and a moat and increases creature growth by 50%.",
+					"cost": {
+						"gold": 2500,
+						"ore": 5
+					}
+				},
+				"castle": {
+					"name": "Mountain Castle",
+					"description": "The Mountain Castle adds two arrow towers, strengthens the walls and doubles base creature growth.",
+					"cost": {
+						"gold": 5000,
+						"wood": 10,
+						"ore": 10
+					}
+				},
+				"tavern": {
+					"name": "Tea House",
+					"description": "The Tea House lets you recruit heroes and hear rumours, and raises the morale of the garrison.",
+					"cost": {
+						"gold": 500,
+						"wood": 5
+					}
+				},
+				"blacksmith": {
+					"name": "Healer's Pavilion",
+					"description": "The Healer's Pavilion provides your armies with First Aid Tents.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5
+					},
+					"warMachine": "firstAidTent"
+				},
+				"marketplace": {
+					"name": "Marketplace",
+					"description": "The Marketplace lets you trade resources. Rates improve with every Marketplace you own.",
+					"cost": {
+						"gold": 500,
+						"wood": 5
+					}
+				},
+				"resourceSilo": {
+					"name": "Jade Vault",
+					"description": "The Jade Vault provides one additional gem each day.",
+					"cost": {
+						"gold": 5000,
+						"ore": 5
+					},
+					"produce": {
+						"gems": 1
+					}
+				},
+				"mageGuild1": {
+					"name": "Shrine of Scrolls, Level 1",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"ore": 5
+					}
+				},
+				"mageGuild2": {
+					"name": "Shrine of Scrolls, Level 2",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 4,
+						"sulfur": 4,
+						"crystal": 4,
+						"gems": 4
+					}
+				},
+				"mageGuild3": {
+					"name": "Shrine of Scrolls, Level 3",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 6,
+						"sulfur": 6,
+						"crystal": 6,
+						"gems": 6
+					}
+				},
+				"mageGuild4": {
+					"name": "Shrine of Scrolls, Level 4",
+					"description": "Entering the Shrine lets a hero with a spell book learn its spells.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 8,
+						"sulfur": 8,
+						"crystal": 8,
+						"gems": 8
+					}
+				},
+				"special1": {
+					"name": "Great Torii",
+					"description": "The Great Torii grants +2 luck to heroes defending the town.",
+					"cost": {
+						"gold": 1500,
+						"wood": 5
+					},
+					"requires": [
+						"marketplace"
+					],
+					"bonuses": [
+						{
+							"type": "LUCK",
+							"val": 2
+						}
+					]
+				},
+				"special2": {
+					"name": "Dojo",
+					"description": "A hero who visits the Dojo gains +1 Attack, once.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"blacksmith"
+					],
+					"configuration": {
+						"visitMode": "hero",
+						"rewards": [
+							{
+								"message": "@core.genrltxt.584",
+								"primary": {
+									"attack": 1
+								}
+							}
+						]
+					}
+				},
+				"horde1": {
+					"name": "Drill Yard",
+					"description": "The Drill Yard increases Ashigaru production by 8 per week.",
+					"cost": {
+						"gold": 1000
+					},
+					"requires": [
+						"dwellingLvl1"
+					],
+					"upgrades": "dwellingLvl1"
+				},
+				"horde1Upgr": {
+					"name": "Drill Yard",
+					"description": "The Drill Yard increases Samurai production by 8 per week.",
+					"cost": {
+						"gold": 1000
+					},
+					"requires": [
+						"horde1"
+					],
+					"upgrades": "dwellingUpLvl1"
+				},
+				"grail": {
+					"name": "Pearl of Heaven",
+					"description": "The Pearl of Heaven earns 5000 gold per day, increases creature growth by 50% and gives all your heroes +2 luck.",
+					"cost": {},
+					"bonuses": [
+						{
+							"type": "LUCK",
+							"val": 2,
+							"propagator": "PLAYER"
+						}
+					]
+				},
+				"dwellingLvl1": {
+					"name": "Spear Barracks",
+					"description": "The Spear Barracks lets you recruit Ashigaru.",
+					"cost": {
+						"gold": 400,
+						"wood": 5
+					},
+					"requires": [
+						"fort"
+					]
+				},
+				"dwellingUpLvl1": {
+					"name": "Sword Hall",
+					"description": "The Sword Hall lets you recruit Samurai.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5
+					},
+					"upgrades": "dwellingLvl1"
+				},
+				"dwellingLvl2": {
+					"name": "River Shrine",
+					"description": "The River Shrine lets you recruit Kappas.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingUpLvl2": {
+					"name": "Sacred Pool",
+					"description": "The Sacred Pool lets you recruit Kappa Elders.",
+					"cost": {
+						"gold": 1200,
+						"wood": 5
+					},
+					"upgrades": "dwellingLvl2"
+				},
+				"dwellingLvl3": {
+					"name": "Crow Pagoda",
+					"description": "The Crow Pagoda lets you recruit Tengu.",
+					"cost": {
+						"gold": 1500,
+						"ore": 5
+					},
+					"requires": [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingUpLvl3": {
+					"name": "Tengu Monastery",
+					"description": "The Tengu Monastery lets you recruit Daitengu.",
+					"cost": {
+						"gold": 1500,
+						"ore": 5,
+						"gems": 2
+					},
+					"upgrades": "dwellingLvl3"
+				},
+				"dwellingLvl4": {
+					"name": "Fox Shrine",
+					"description": "The Fox Shrine lets you recruit Kitsune.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"gems": 3
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						]
+					]
+				},
+				"dwellingUpLvl4": {
+					"name": "Inari Temple",
+					"description": "The Inari Temple lets you recruit Nine-Tailed Kitsune.",
+					"cost": {
+						"gold": 2000,
+						"gems": 5
+					},
+					"upgrades": "dwellingLvl4",
+					"requires": [
+						"mageGuild1"
+					]
+				},
+				"dwellingLvl5": {
+					"name": "Oni Cave",
+					"description": "The Oni Cave lets you recruit Oni.",
+					"cost": {
+						"gold": 3000,
+						"wood": 5,
+						"ore": 10
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"blacksmith"
+						]
+					]
+				},
+				"dwellingUpLvl5": {
+					"name": "Oni Fortress",
+					"description": "The Oni Fortress lets you recruit Oni Warlords.",
+					"cost": {
+						"gold": 2500,
+						"ore": 5,
+						"sulfur": 5
+					},
+					"upgrades": "dwellingLvl5"
+				},
+				"dwellingLvl6": {
+					"name": "Cloud Stable",
+					"description": "The Cloud Stable lets you recruit Kirin.",
+					"cost": {
+						"gold": 5000,
+						"wood": 10,
+						"ore": 10,
+						"crystal": 5,
+						"gems": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl6": {
+					"name": "Storm Stable",
+					"description": "The Storm Stable lets you recruit Thunder Kirin.",
+					"cost": {
+						"gold": 4000,
+						"crystal": 5,
+						"gems": 5
+					},
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingLvl7": {
+					"name": "Dragon Tower",
+					"description": "The Dragon Tower lets you recruit Jade Dragons.",
+					"cost": {
+						"gold": 12000,
+						"ore": 20,
+						"gems": 15
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"mageGuild2"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Heavenly Tower",
+					"description": "The Heavenly Tower lets you recruit Celestial Dragons.",
+					"cost": {
+						"gold": 18000,
+						"ore": 20,
+						"gems": 20
+					},
+					"upgrades": "dwellingLvl7",
+					"requires": [
+						"mageGuild3"
+					]
+				},
+				"mageGuild5": null,
+				"shipyard": null,
+				"ship": null,
+				"special3": null,
+				"special4": null,
+				"horde2": null,
+				"horde2Upgr": null
+			},
+			"siege": {
+				"shooter": "kitsune",
+				"imagePrefix": "SGCS",
+				"gate": {
+					"arch": {
+						"x": 477,
+						"y": 238
+					},
+					"gate": {
+						"x": 399,
+						"y": 274
+					}
+				},
+				"moat": {
+					"bank": {
+						"x": 403,
+						"y": 80
+					},
+					"moat": {
+						"x": 410,
+						"y": 90
+					}
+				},
+				"static": {
+					"background": {
+						"x": 600,
+						"y": 49
+					},
+					"bottom": {
+						"x": 512,
+						"y": 347
+					},
+					"top": {
+						"x": 489,
+						"y": 79
+					}
+				},
+				"towers": {
+					"bottom": {
+						"battlement": {
+							"x": 602,
+							"y": 500
+						},
+						"creature": {
+							"x": 394,
+							"y": 299
+						},
+						"tower": {
+							"x": 602,
+							"y": 500
+						}
+					},
+					"keep": {
+						"battlement": {
+							"x": 720,
+							"y": 158
+						},
+						"creature": {
+							"x": 526,
+							"y": -29
+						},
+						"tower": {
+							"x": 720,
+							"y": 158
+						}
+					},
+					"top": {
+						"battlement": {
+							"x": 557,
+							"y": 24
+						},
+						"creature": {
+							"x": 342,
+							"y": -187
+						},
+						"tower": {
+							"x": 569,
+							"y": 35
+						}
+					}
+				},
+				"walls": {
+					"bottom": {
+						"x": 528,
+						"y": 350
+					},
+					"bottomMid": {
+						"x": 469,
+						"y": 291
+					},
+					"upper": {
+						"x": 524,
+						"y": 32
+					},
+					"upperMid": {
+						"x": 470,
+						"y": 127
+					}
+				},
+				"towerIconLarge": "threerealms/pagoda/kitsuneLarge.png",
+				"towerIconSmall": "threerealms/pagoda/kitsuneSmall.png"
+			}
+		}
+	}
+}

@@ -1,0 +1,827 @@
+{
+	"sporeling": {
+		"name": {
+			"singular": "Sporeling",
+			"plural": "Sporelings"
+		},
+		"description": "The smallest fruit of the network. Very cheap, with the highest growth of any creature.",
+		"faction": "mycelium",
+		"level": 1,
+		"doubleWide": false,
+		"cost": {
+			"gold": 35
+		},
+		"speed": 4,
+		"hitPoints": 5,
+		"attack": 2,
+		"defense": 3,
+		"damage": {
+			"min": 1,
+			"max": 2
+		},
+		"growth": 18,
+		"fightValue": 60,
+		"aiValue": 55,
+		"advMapAmount": {
+			"min": 30,
+			"max": 60
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/mycelium/CSporeling.def",
+			"iconLarge": "threerealms/mycelium/sporelingLarge.png",
+			"iconSmall": "threerealms/mycelium/sporelingSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVSporeling.def"
+		},
+		"sound": {
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"upgrades": [
+			"sporeSwarm"
+		]
+	},
+	"sporeSwarm": {
+		"name": {
+			"singular": "Spore Swarm",
+			"plural": "Spore Swarms"
+		},
+		"description": "Sporelings that have learned to move as one.",
+		"faction": "mycelium",
+		"level": 1,
+		"doubleWide": false,
+		"cost": {
+			"gold": 50
+		},
+		"speed": 6,
+		"hitPoints": 6,
+		"attack": 3,
+		"defense": 4,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"growth": 18,
+		"fightValue": 80,
+		"aiValue": 85,
+		"advMapAmount": {
+			"min": 30,
+			"max": 60
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/mycelium/CSporeSwarm.def",
+			"iconLarge": "threerealms/mycelium/sporeSwarmLarge.png",
+			"iconSmall": "threerealms/mycelium/sporeSwarmSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVSporeSwarm.def"
+		},
+		"sound": {
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		}
+	},
+	"creeper": {
+		"name": {
+			"singular": "Fungal Creeper",
+			"plural": "Fungal Creepers"
+		},
+		"description": "A crawling tangle of roots and caps.",
+		"faction": "mycelium",
+		"level": 2,
+		"doubleWide": false,
+		"cost": {
+			"gold": 100
+		},
+		"speed": 4,
+		"hitPoints": 16,
+		"attack": 5,
+		"defense": 6,
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		"growth": 10,
+		"fightValue": 130,
+		"aiValue": 150,
+		"advMapAmount": {
+			"min": 16,
+			"max": 25
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/mycelium/CCreeper.def",
+			"iconLarge": "threerealms/mycelium/creeperLarge.png",
+			"iconSmall": "threerealms/mycelium/creeperSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVCreeper.def"
+		},
+		"sound": {
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"upgrades": [
+			"blightCreeper"
+		]
+	},
+	"blightCreeper": {
+		"name": {
+			"singular": "Blight Creeper",
+			"plural": "Blight Creepers"
+		},
+		"description": "Its tendrils may slow whatever it strikes.",
+		"faction": "mycelium",
+		"level": 2,
+		"doubleWide": false,
+		"cost": {
+			"gold": 130
+		},
+		"speed": 6,
+		"hitPoints": 18,
+		"attack": 6,
+		"defense": 7,
+		"damage": {
+			"min": 2,
+			"max": 4
+		},
+		"growth": 10,
+		"fightValue": 180,
+		"aiValue": 215,
+		"advMapAmount": {
+			"min": 16,
+			"max": 25
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"entangle": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.slow",
+				"val": 30
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CBlightCreeper.def",
+			"iconLarge": "threerealms/mycelium/blightCreeperLarge.png",
+			"iconSmall": "threerealms/mycelium/blightCreeperSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVBlightCreeper.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	},
+	"spitter": {
+		"name": {
+			"singular": "Mold Spitter",
+			"plural": "Mold Spitters"
+		},
+		"description": "Hunched mold-beasts that spit spores. Ranged attackers.",
+		"faction": "mycelium",
+		"level": 3,
+		"doubleWide": false,
+		"cost": {
+			"gold": 180
+		},
+		"speed": 5,
+		"hitPoints": 15,
+		"attack": 7,
+		"defense": 5,
+		"damage": {
+			"min": 2,
+			"max": 5
+		},
+		"growth": 7,
+		"fightValue": 230,
+		"aiValue": 300,
+		"advMapAmount": {
+			"min": 12,
+			"max": 20
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"shooter": {
+				"type": "SHOOTER"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CSpitter.def",
+			"iconLarge": "threerealms/mycelium/spitterLarge.png",
+			"iconSmall": "threerealms/mycelium/spitterSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVSpitter.def",
+			"missile": {
+				"projectile": "PMAGEX.DEF",
+				"frameAngles": [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"attackClimaxFrame": 3,
+				"offset": {
+					"upperX": 12,
+					"upperY": -34,
+					"middleX": 20,
+					"middleY": -24,
+					"lowerX": 12,
+					"lowerY": -10
+				}
+			}
+		},
+		"sound": {
+			"attack": "MAGEATTK.wav",
+			"defend": "MAGEDFND.wav",
+			"killed": "MAGEKILL.wav",
+			"move": "MAGEMOVE.wav",
+			"wince": "MAGEWNCE.wav",
+			"shoot": "MAGESHOT.wav"
+		},
+		"shots": 12,
+		"upgrades": [
+			"rotSpitter"
+		]
+	},
+	"rotSpitter": {
+		"name": {
+			"singular": "Rot Spitter",
+			"plural": "Rot Spitters"
+		},
+		"description": "Ranged. Its spores may poison the target.",
+		"faction": "mycelium",
+		"level": 3,
+		"doubleWide": false,
+		"cost": {
+			"gold": 230
+		},
+		"speed": 6,
+		"hitPoints": 18,
+		"attack": 8,
+		"defense": 6,
+		"damage": {
+			"min": 3,
+			"max": 5
+		},
+		"growth": 7,
+		"fightValue": 320,
+		"aiValue": 420,
+		"advMapAmount": {
+			"min": 12,
+			"max": 20
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"shooter": {
+				"type": "SHOOTER"
+			},
+			"spores": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.poison",
+				"val": 30
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CRotSpitter.def",
+			"iconLarge": "threerealms/mycelium/rotSpitterLarge.png",
+			"iconSmall": "threerealms/mycelium/rotSpitterSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVRotSpitter.def",
+			"missile": {
+				"projectile": "PMAGEX.DEF",
+				"frameAngles": [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"attackClimaxFrame": 3,
+				"offset": {
+					"upperX": 12,
+					"upperY": -34,
+					"middleX": 20,
+					"middleY": -24,
+					"lowerX": 12,
+					"lowerY": -10
+				}
+			}
+		},
+		"sound": {
+			"attack": "MAGEATTK.wav",
+			"defend": "MAGEDFND.wav",
+			"killed": "MAGEKILL.wav",
+			"move": "MAGEMOVE.wav",
+			"wince": "MAGEWNCE.wav",
+			"shoot": "MAGESHOT.wav"
+		},
+		"shots": 24
+	},
+	"mycelgolem": {
+		"name": {
+			"singular": "Mycel Golem",
+			"plural": "Mycel Golems"
+		},
+		"description": "A slow hulk of woven mycelium that knits its wounds each round.",
+		"faction": "mycelium",
+		"level": 4,
+		"doubleWide": false,
+		"cost": {
+			"gold": 310
+		},
+		"speed": 4,
+		"hitPoints": 40,
+		"attack": 9,
+		"defense": 12,
+		"damage": {
+			"min": 5,
+			"max": 7
+		},
+		"growth": 4,
+		"fightValue": 390,
+		"aiValue": 480,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"regenerate": {
+				"type": "HP_REGENERATION",
+				"val": 20
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CMycelgolem.def",
+			"iconLarge": "threerealms/mycelium/mycelgolemLarge.png",
+			"iconSmall": "threerealms/mycelium/mycelgolemSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVMycelgolem.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		},
+		"upgrades": [
+			"elderMycelgolem"
+		]
+	},
+	"elderMycelgolem": {
+		"name": {
+			"singular": "Elder Mycel Golem",
+			"plural": "Elder Mycel Golems"
+		},
+		"description": "Old growth: tougher, and it regenerates faster.",
+		"faction": "mycelium",
+		"level": 4,
+		"doubleWide": false,
+		"cost": {
+			"gold": 400
+		},
+		"speed": 5,
+		"hitPoints": 48,
+		"attack": 10,
+		"defense": 13,
+		"damage": {
+			"min": 6,
+			"max": 8
+		},
+		"growth": 4,
+		"fightValue": 510,
+		"aiValue": 640,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"regenerate": {
+				"type": "HP_REGENERATION",
+				"val": 40
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CElderMycelgolem.def",
+			"iconLarge": "threerealms/mycelium/elderMycelgolemLarge.png",
+			"iconSmall": "threerealms/mycelium/elderMycelgolemSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVElderMycelgolem.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	},
+	"rottroll": {
+		"name": {
+			"singular": "Rot Troll",
+			"plural": "Rot Trolls"
+		},
+		"description": "A troll long since taken over by what grew on it.",
+		"faction": "mycelium",
+		"level": 5,
+		"doubleWide": false,
+		"cost": {
+			"gold": 500
+		},
+		"speed": 6,
+		"hitPoints": 50,
+		"attack": 14,
+		"defense": 9,
+		"damage": {
+			"min": 10,
+			"max": 16
+		},
+		"growth": 3,
+		"fightValue": 630,
+		"aiValue": 800,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/mycelium/CRottroll.def",
+			"iconLarge": "threerealms/mycelium/rottrollLarge.png",
+			"iconSmall": "threerealms/mycelium/rottrollSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVRottroll.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		},
+		"upgrades": [
+			"blightTroll"
+		]
+	},
+	"blightTroll": {
+		"name": {
+			"singular": "Blight Troll",
+			"plural": "Blight Trolls"
+		},
+		"description": "Its blows may spread disease.",
+		"faction": "mycelium",
+		"level": 5,
+		"doubleWide": false,
+		"cost": {
+			"gold": 600
+		},
+		"speed": 7,
+		"hitPoints": 60,
+		"attack": 15,
+		"defense": 11,
+		"damage": {
+			"min": 12,
+			"max": 18
+		},
+		"growth": 3,
+		"fightValue": 810,
+		"aiValue": 1050,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"disease": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 20
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CBlightTroll.def",
+			"iconLarge": "threerealms/mycelium/blightTrollLarge.png",
+			"iconSmall": "threerealms/mycelium/blightTrollSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVBlightTroll.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	},
+	"sporemother": {
+		"name": {
+			"singular": "Spore Mother",
+			"plural": "Spore Mothers"
+		},
+		"description": "Her spore cloud strikes every adjacent enemy at once.",
+		"faction": "mycelium",
+		"level": 6,
+		"doubleWide": false,
+		"cost": {
+			"gold": 900
+		},
+		"speed": 5,
+		"hitPoints": 90,
+		"attack": 15,
+		"defense": 16,
+		"damage": {
+			"min": 15,
+			"max": 22
+		},
+		"growth": 2,
+		"fightValue": 1450,
+		"aiValue": 1800,
+		"advMapAmount": {
+			"min": 4,
+			"max": 6
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"cloud": {
+				"type": "ATTACKS_ALL_ADJACENT"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CSporemother.def",
+			"iconLarge": "threerealms/mycelium/sporemotherLarge.png",
+			"iconSmall": "threerealms/mycelium/sporemotherSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVSporemother.def"
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"upgrades": [
+			"sporeMatriarch"
+		]
+	},
+	"sporeMatriarch": {
+		"name": {
+			"singular": "Spore Matriarch",
+			"plural": "Spore Matriarchs"
+		},
+		"description": "Strikes all adjacent enemies, and none dare strike back.",
+		"faction": "mycelium",
+		"level": 6,
+		"doubleWide": false,
+		"cost": {
+			"gold": 1150
+		},
+		"speed": 7,
+		"hitPoints": 110,
+		"attack": 17,
+		"defense": 18,
+		"damage": {
+			"min": 16,
+			"max": 24
+		},
+		"growth": 2,
+		"fightValue": 1850,
+		"aiValue": 2350,
+		"advMapAmount": {
+			"min": 4,
+			"max": 6
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"cloud": {
+				"type": "ATTACKS_ALL_ADJACENT"
+			},
+			"noRetaliation": {
+				"type": "BLOCKS_RETALIATION"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CSporeMatriarch.def",
+			"iconLarge": "threerealms/mycelium/sporeMatriarchLarge.png",
+			"iconSmall": "threerealms/mycelium/sporeMatriarchSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVSporeMatriarch.def"
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		}
+	},
+	"colossus": {
+		"name": {
+			"singular": "Fungal Colossus",
+			"plural": "Fungal Colossi"
+		},
+		"description": "A walking mushroom the size of a tower. Immune to mind spells.",
+		"faction": "mycelium",
+		"level": 7,
+		"doubleWide": true,
+		"cost": {
+			"gold": 3000,
+			"mercury": 1
+		},
+		"speed": 6,
+		"hitPoints": 240,
+		"attack": 22,
+		"defense": 22,
+		"damage": {
+			"min": 40,
+			"max": 60
+		},
+		"growth": 1,
+		"fightValue": 4000,
+		"aiValue": 5200,
+		"advMapAmount": {
+			"min": 1,
+			"max": 3
+		},
+		"hasDoubleWeek": false,
+		"abilities": {
+			"mind": {
+				"type": "MIND_IMMUNITY"
+			},
+			"KING_1": {
+				"type": "KING",
+				"val": 0
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CColossus.def",
+			"iconLarge": "threerealms/mycelium/colossusLarge.png",
+			"iconSmall": "threerealms/mycelium/colossusSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVColossus.def"
+		},
+		"sound": {
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		},
+		"upgrades": [
+			"mycelialTitan"
+		]
+	},
+	"mycelialTitan": {
+		"name": {
+			"singular": "Mycelial Titan",
+			"plural": "Mycelial Titans"
+		},
+		"description": "The network itself, risen. Immune to mind spells; its stamp crushes armour.",
+		"faction": "mycelium",
+		"level": 7,
+		"doubleWide": true,
+		"cost": {
+			"gold": 4500,
+			"mercury": 2
+		},
+		"speed": 9,
+		"hitPoints": 320,
+		"attack": 27,
+		"defense": 26,
+		"damage": {
+			"min": 45,
+			"max": 65
+		},
+		"growth": 1,
+		"fightValue": 6400,
+		"aiValue": 8800,
+		"advMapAmount": {
+			"min": 1,
+			"max": 3
+		},
+		"hasDoubleWeek": false,
+		"abilities": {
+			"mind": {
+				"type": "MIND_IMMUNITY"
+			},
+			"crush": {
+				"type": "ENEMY_DEFENCE_REDUCTION",
+				"val": 20
+			},
+			"KING_1": {
+				"type": "KING",
+				"val": 0
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/mycelium/CMycelialTitan.def",
+			"iconLarge": "threerealms/mycelium/mycelialTitanLarge.png",
+			"iconSmall": "threerealms/mycelium/mycelialTitanSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/mycelium/AVMycelialTitan.def"
+		},
+		"sound": {
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		}
+	}
+}

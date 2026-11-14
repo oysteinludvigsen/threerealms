@@ -1,0 +1,810 @@
+{
+	"khafre": {
+		"class": "pharaoh",
+		"female": false,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "armorer"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero00Large.png",
+			"small": "threerealms/sepulcher/hero00Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero00SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero00SpecSmall.png"
+		},
+		"texts": {
+			"name": "Khafre",
+			"biography": "Built his tomb before his palace, and garrisoned both.",
+			"specialty": {
+				"name": "Armorer",
+				"description": "Receives a 5% per level bonus to the Armorer skill.",
+				"tooltip": "Armorer"
+			}
+		}
+	},
+	"neferu": {
+		"class": "pharaoh",
+		"female": true,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "archery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "priestess"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero01Large.png",
+			"small": "threerealms/sepulcher/hero01Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero01SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero01SpecSmall.png"
+		},
+		"texts": {
+			"name": "Neferu",
+			"biography": "A general who rose from the temple archers.",
+			"specialty": {
+				"name": "Sun Priestesses",
+				"description": "Increases the Attack and Defense of any Sun Priestesses and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Sun Priestesses"
+			}
+		}
+	},
+	"sobekhotep": {
+		"class": "pharaoh",
+		"female": false,
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			},
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "ammit"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero02Large.png",
+			"small": "threerealms/sepulcher/hero02Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero02SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero02SpecSmall.png"
+		},
+		"texts": {
+			"name": "Sobekhotep",
+			"biography": "Raised among the river beasts, he feeds the Devourer from his own hand.",
+			"specialty": {
+				"name": "Ammits",
+				"description": "Increases the Attack and Defense of any Ammits and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Ammits"
+			}
+		}
+	},
+	"anhur": {
+		"class": "pharaoh",
+		"female": false,
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			},
+			{
+				"skill": "leadership",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "offence"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero03Large.png",
+			"small": "threerealms/sepulcher/hero03Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero03SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero03SpecSmall.png"
+		},
+		"texts": {
+			"name": "Anhur",
+			"biography": "The slayer of enemies, who brought the lioness home from the far desert.",
+			"specialty": {
+				"name": "Offense",
+				"description": "Receives a 5% per level bonus to the Offense skill.",
+				"tooltip": "Offense"
+			}
+		}
+	},
+	"merit": {
+		"class": "pharaoh",
+		"female": true,
+		"skills": [
+			{
+				"skill": "logistics",
+				"level": "basic"
+			},
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "logistics"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero04Large.png",
+			"small": "threerealms/sepulcher/hero04Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero04SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero04SpecSmall.png"
+		},
+		"texts": {
+			"name": "Merit",
+			"biography": "Caravan mistress who knows every well between the cataracts.",
+			"specialty": {
+				"name": "Logistics",
+				"description": "Receives a 5% per level bonus to the Logistics skill.",
+				"tooltip": "Logistics"
+			}
+		}
+	},
+	"wepwawet": {
+		"class": "pharaoh",
+		"female": false,
+		"skills": [
+			{
+				"skill": "scouting",
+				"level": "basic"
+			},
+			{
+				"skill": "leadership",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "jackal"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero05Large.png",
+			"small": "threerealms/sepulcher/hero05Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero05SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero05SpecSmall.png"
+		},
+		"texts": {
+			"name": "Wepwawet",
+			"biography": "Opener of the Ways. Jackals march where he points.",
+			"specialty": {
+				"name": "Jackal Warriors",
+				"description": "Increases the Attack and Defense of any Jackal Warriors and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Jackal Warriors"
+			}
+		}
+	},
+	"ptahmose": {
+		"class": "pharaoh",
+		"female": false,
+		"skills": [
+			{
+				"skill": "armorer",
+				"level": "basic"
+			},
+			{
+				"skill": "artillery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "statue"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero06Large.png",
+			"small": "threerealms/sepulcher/hero06Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero06SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero06SpecSmall.png"
+		},
+		"texts": {
+			"name": "Ptahmose",
+			"biography": "Master sculptor. His statues were lifelike before he gave them life.",
+			"specialty": {
+				"name": "Living Statues",
+				"description": "Increases the Attack and Defense of any Living Statues and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Living Statues"
+			}
+		}
+	},
+	"hatshepsut": {
+		"class": "pharaoh",
+		"female": true,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "estates",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "estates"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero07Large.png",
+			"small": "threerealms/sepulcher/hero07Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero07SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero07SpecSmall.png"
+		},
+		"texts": {
+			"name": "Hatshepsut",
+			"biography": "She ruled as king and filled the treasury with the wealth of distant lands.",
+			"specialty": {
+				"name": "Estates",
+				"description": "Receives a 5% per level bonus to the Estates skill.",
+				"tooltip": "Estates"
+			}
+		}
+	},
+	"imhotep": {
+		"class": "hierophant",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "firstAid",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "firstAid"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero08Large.png",
+			"small": "threerealms/sepulcher/hero08Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero08SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero08SpecSmall.png"
+		},
+		"texts": {
+			"name": "Imhotep",
+			"biography": "Architect, physician and sage, worshipped within a generation of his death.",
+			"specialty": {
+				"name": "First Aid",
+				"description": "Receives a 5% per level bonus to the First Aid skill.",
+				"tooltip": "First Aid"
+			}
+		},
+		"spellbook": [
+			"cure"
+		]
+	},
+	"nitocris": {
+		"class": "hierophant",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "sorcery"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero09Large.png",
+			"small": "threerealms/sepulcher/hero09Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero09SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero09SpecSmall.png"
+		},
+		"texts": {
+			"name": "Nitocris",
+			"biography": "She drowned her brother's murderers in a banquet hall and never spoke of it.",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Receives a 5% per level bonus to the Sorcery skill.",
+				"tooltip": "Sorcery"
+			}
+		},
+		"spellbook": [
+			"magicArrow"
+		]
+	},
+	"djedi": {
+		"class": "hierophant",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "mysticism"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero10Large.png",
+			"small": "threerealms/sepulcher/hero10Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero10SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero10SpecSmall.png"
+		},
+		"texts": {
+			"name": "Djedi",
+			"biography": "A magician of a hundred and ten years who could rejoin a severed head.",
+			"specialty": {
+				"name": "Mysticism",
+				"description": "Receives a 5% per level bonus to the Mysticism skill.",
+				"tooltip": "Mysticism"
+			}
+		},
+		"spellbook": [
+			"bless"
+		]
+	},
+	"serqet": {
+		"class": "hierophant",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "uraeus"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero11Large.png",
+			"small": "threerealms/sepulcher/hero11Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero11SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero11SpecSmall.png"
+		},
+		"texts": {
+			"name": "Serqet",
+			"biography": "Keeper of the crown serpents; no venom harms her.",
+			"specialty": {
+				"name": "Uraei",
+				"description": "Increases the Attack and Defense of any Uraei and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Uraei"
+			}
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"khepri": {
+		"class": "hierophant",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "eagleEye",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "scarab"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero12Large.png",
+			"small": "threerealms/sepulcher/hero12Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero12SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero12SpecSmall.png"
+		},
+		"texts": {
+			"name": "Khepri",
+			"biography": "Priest of the morning sun, who rolls armies of scarabs before him.",
+			"specialty": {
+				"name": "Scarabs",
+				"description": "Increases the Attack and Defense of any Scarabs and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Scarabs"
+			}
+		},
+		"spellbook": [
+			"haste"
+		]
+	},
+	"ankhesen": {
+		"class": "hierophant",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "intelligence"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero13Large.png",
+			"small": "threerealms/sepulcher/hero13Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero13SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero13SpecSmall.png"
+		},
+		"texts": {
+			"name": "Ankhesen",
+			"biography": "A widow queen who learned sorcery to keep her throne.",
+			"specialty": {
+				"name": "Intelligence",
+				"description": "Receives a 5% per level bonus to the Intelligence skill.",
+				"tooltip": "Intelligence"
+			}
+		},
+		"spellbook": [
+			"shield"
+		]
+	},
+	"thutmose": {
+		"class": "hierophant",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "resistance",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "sphinx"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero14Large.png",
+			"small": "threerealms/sepulcher/hero14Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero14SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero14SpecSmall.png"
+		},
+		"texts": {
+			"name": "Thutmose",
+			"biography": "He slept in the shadow of a sphinx, and it promised him a kingdom.",
+			"specialty": {
+				"name": "Sphinxes",
+				"description": "Increases the Attack and Defense of any Sphinxes and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Sphinxes"
+			}
+		},
+		"spellbook": [
+			"stoneSkin"
+		]
+	},
+	"meresankh": {
+		"class": "hierophant",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "learning",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "learning"
+		},
+		"army": [
+			{
+				"creature": "scarab",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "jackal",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "priestess",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/sepulcher/hero15Large.png",
+			"small": "threerealms/sepulcher/hero15Small.png",
+			"specialtyLarge": "threerealms/sepulcher/hero15SpecLarge.png",
+			"specialtySmall": "threerealms/sepulcher/hero15SpecSmall.png"
+		},
+		"texts": {
+			"name": "Meresankh",
+			"biography": "Scribe of the House of Life, who has read every scroll in it twice.",
+			"specialty": {
+				"name": "Learning",
+				"description": "Receives a 5% per level bonus to the Learning skill.",
+				"tooltip": "Learning"
+			}
+		},
+		"spellbook": [
+			"bless"
+		]
+	}
+}

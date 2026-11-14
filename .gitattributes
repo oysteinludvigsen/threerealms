@@ -1,0 +1,5 @@
+*.def binary
+*.png binary
+*.pcx binary
+*.bmp binary
+*.json text eol=lf

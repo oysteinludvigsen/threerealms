@@ -1,0 +1,825 @@
+{
+	"scarab": {
+		"name": {
+			"singular": "Scarab",
+			"plural": "Scarabs"
+		},
+		"description": "Swarming beetles of the dunes. Cheap and quick.",
+		"faction": "sepulcher",
+		"level": 1,
+		"doubleWide": false,
+		"cost": {
+			"gold": 40
+		},
+		"speed": 6,
+		"hitPoints": 6,
+		"attack": 3,
+		"defense": 3,
+		"damage": {
+			"min": 1,
+			"max": 2
+		},
+		"growth": 16,
+		"fightValue": 70,
+		"aiValue": 60,
+		"advMapAmount": {
+			"min": 25,
+			"max": 50
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CScarab.def",
+			"iconLarge": "threerealms/sepulcher/scarabLarge.png",
+			"iconSmall": "threerealms/sepulcher/scarabSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVScarab.def"
+		},
+		"sound": {
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"upgrades": [
+			"gildedScarab"
+		]
+	},
+	"gildedScarab": {
+		"name": {
+			"singular": "Gilded Scarab",
+			"plural": "Gilded Scarabs"
+		},
+		"description": "Scarabs blessed in the temple forges. Faster and harder to crack.",
+		"faction": "sepulcher",
+		"level": 1,
+		"doubleWide": false,
+		"cost": {
+			"gold": 60
+		},
+		"speed": 8,
+		"hitPoints": 7,
+		"attack": 4,
+		"defense": 4,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"growth": 16,
+		"fightValue": 95,
+		"aiValue": 95,
+		"advMapAmount": {
+			"min": 25,
+			"max": 50
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CGildedScarab.def",
+			"iconLarge": "threerealms/sepulcher/gildedScarabLarge.png",
+			"iconSmall": "threerealms/sepulcher/gildedScarabSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVGildedScarab.def"
+		},
+		"sound": {
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		}
+	},
+	"jackal": {
+		"name": {
+			"singular": "Jackal Warrior",
+			"plural": "Jackal Warriors"
+		},
+		"description": "Jackal-headed soldiers of the necropolis guard.",
+		"faction": "sepulcher",
+		"level": 2,
+		"doubleWide": false,
+		"cost": {
+			"gold": 110
+		},
+		"speed": 6,
+		"hitPoints": 15,
+		"attack": 6,
+		"defense": 5,
+		"damage": {
+			"min": 2,
+			"max": 4
+		},
+		"growth": 9,
+		"fightValue": 150,
+		"aiValue": 180,
+		"advMapAmount": {
+			"min": 16,
+			"max": 25
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CJackal.def",
+			"iconLarge": "threerealms/sepulcher/jackalLarge.png",
+			"iconSmall": "threerealms/sepulcher/jackalSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVJackal.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		},
+		"upgrades": [
+			"jackalGuard"
+		]
+	},
+	"jackalGuard": {
+		"name": {
+			"singular": "Jackal Guard",
+			"plural": "Jackal Guards"
+		},
+		"description": "Veterans who do not know fear. Immune to mind spells.",
+		"faction": "sepulcher",
+		"level": 2,
+		"doubleWide": false,
+		"cost": {
+			"gold": 140
+		},
+		"speed": 7,
+		"hitPoints": 16,
+		"attack": 8,
+		"defense": 6,
+		"damage": {
+			"min": 2,
+			"max": 5
+		},
+		"growth": 9,
+		"fightValue": 200,
+		"aiValue": 250,
+		"advMapAmount": {
+			"min": 16,
+			"max": 25
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"fearless": {
+				"type": "MIND_IMMUNITY"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CJackalGuard.def",
+			"iconLarge": "threerealms/sepulcher/jackalGuardLarge.png",
+			"iconSmall": "threerealms/sepulcher/jackalGuardSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVJackalGuard.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	},
+	"priestess": {
+		"name": {
+			"singular": "Sun Priestess",
+			"plural": "Sun Priestesses"
+		},
+		"description": "Priestesses who cast the sun's fire. Ranged attackers.",
+		"faction": "sepulcher",
+		"level": 3,
+		"doubleWide": false,
+		"cost": {
+			"gold": 190
+		},
+		"speed": 5,
+		"hitPoints": 18,
+		"attack": 7,
+		"defense": 5,
+		"damage": {
+			"min": 3,
+			"max": 5
+		},
+		"growth": 7,
+		"fightValue": 240,
+		"aiValue": 310,
+		"advMapAmount": {
+			"min": 12,
+			"max": 20
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"shooter": {
+				"type": "SHOOTER"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CPriestess.def",
+			"iconLarge": "threerealms/sepulcher/priestessLarge.png",
+			"iconSmall": "threerealms/sepulcher/priestessSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVPriestess.def",
+			"missile": {
+				"projectile": "PMAGEX.DEF",
+				"frameAngles": [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"attackClimaxFrame": 3,
+				"offset": {
+					"upperX": 12,
+					"upperY": -34,
+					"middleX": 20,
+					"middleY": -24,
+					"lowerX": 12,
+					"lowerY": -10
+				}
+			}
+		},
+		"sound": {
+			"attack": "MAGEATTK.wav",
+			"defend": "MAGEDFND.wav",
+			"killed": "MAGEKILL.wav",
+			"move": "MAGEMOVE.wav",
+			"wince": "MAGEWNCE.wav",
+			"shoot": "MAGESHOT.wav"
+		},
+		"shots": 12,
+		"upgrades": [
+			"sunOracle"
+		]
+	},
+	"sunOracle": {
+		"name": {
+			"singular": "Sun Oracle",
+			"plural": "Sun Oracles"
+		},
+		"description": "Oracles of the high temple. Ranged, with no melee penalty.",
+		"faction": "sepulcher",
+		"level": 3,
+		"doubleWide": false,
+		"cost": {
+			"gold": 240
+		},
+		"speed": 7,
+		"hitPoints": 20,
+		"attack": 8,
+		"defense": 6,
+		"damage": {
+			"min": 3,
+			"max": 6
+		},
+		"growth": 7,
+		"fightValue": 330,
+		"aiValue": 440,
+		"advMapAmount": {
+			"min": 12,
+			"max": 20
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"shooter": {
+				"type": "SHOOTER"
+			},
+			"noMeleePenalty": {
+				"type": "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CSunOracle.def",
+			"iconLarge": "threerealms/sepulcher/sunOracleLarge.png",
+			"iconSmall": "threerealms/sepulcher/sunOracleSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVSunOracle.def",
+			"missile": {
+				"projectile": "PMAGEX.DEF",
+				"frameAngles": [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"attackClimaxFrame": 3,
+				"offset": {
+					"upperX": 12,
+					"upperY": -34,
+					"middleX": 20,
+					"middleY": -24,
+					"lowerX": 12,
+					"lowerY": -10
+				}
+			}
+		},
+		"sound": {
+			"attack": "MAGEATTK.wav",
+			"defend": "MAGEDFND.wav",
+			"killed": "MAGEKILL.wav",
+			"move": "MAGEMOVE.wav",
+			"wince": "MAGEWNCE.wav",
+			"shoot": "MAGESHOT.wav"
+		},
+		"shots": 24
+	},
+	"statue": {
+		"name": {
+			"singular": "Living Statue",
+			"plural": "Living Statues"
+		},
+		"description": "Animated sandstone guardians. Unliving, slow and very hard to break.",
+		"faction": "sepulcher",
+		"level": 4,
+		"doubleWide": false,
+		"cost": {
+			"gold": 320
+		},
+		"speed": 4,
+		"hitPoints": 40,
+		"attack": 10,
+		"defense": 12,
+		"damage": {
+			"min": 5,
+			"max": 8
+		},
+		"growth": 4,
+		"fightValue": 380,
+		"aiValue": 470,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"nonLiving": {
+				"type": "NON_LIVING"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CStatue.def",
+			"iconLarge": "threerealms/sepulcher/statueLarge.png",
+			"iconSmall": "threerealms/sepulcher/statueSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVStatue.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		},
+		"upgrades": [
+			"obsidianStatue"
+		]
+	},
+	"obsidianStatue": {
+		"name": {
+			"singular": "Obsidian Statue",
+			"plural": "Obsidian Statues"
+		},
+		"description": "Guardians of black glass. Unliving and resistant to hostile magic.",
+		"faction": "sepulcher",
+		"level": 4,
+		"doubleWide": false,
+		"cost": {
+			"gold": 420
+		},
+		"speed": 6,
+		"hitPoints": 50,
+		"attack": 12,
+		"defense": 14,
+		"damage": {
+			"min": 6,
+			"max": 9
+		},
+		"growth": 4,
+		"fightValue": 520,
+		"aiValue": 650,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"nonLiving": {
+				"type": "NON_LIVING"
+			},
+			"resist": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 30
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CObsidianStatue.def",
+			"iconLarge": "threerealms/sepulcher/obsidianStatueLarge.png",
+			"iconSmall": "threerealms/sepulcher/obsidianStatueSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVObsidianStatue.def"
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	},
+	"uraeus": {
+		"name": {
+			"singular": "Uraeus",
+			"plural": "Uraei"
+		},
+		"description": "The great hooded cobra that guards the crown.",
+		"faction": "sepulcher",
+		"level": 5,
+		"doubleWide": false,
+		"cost": {
+			"gold": 500
+		},
+		"speed": 8,
+		"hitPoints": 50,
+		"attack": 13,
+		"defense": 11,
+		"damage": {
+			"min": 10,
+			"max": 16
+		},
+		"growth": 3,
+		"fightValue": 620,
+		"aiValue": 790,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CUraeus.def",
+			"iconLarge": "threerealms/sepulcher/uraeusLarge.png",
+			"iconSmall": "threerealms/sepulcher/uraeusSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVUraeus.def"
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"upgrades": [
+			"royalUraeus"
+		]
+	},
+	"royalUraeus": {
+		"name": {
+			"singular": "Royal Uraeus",
+			"plural": "Royal Uraei"
+		},
+		"description": "Its venom may poison whatever it bites.",
+		"faction": "sepulcher",
+		"level": 5,
+		"doubleWide": false,
+		"cost": {
+			"gold": 600
+		},
+		"speed": 10,
+		"hitPoints": 55,
+		"attack": 14,
+		"defense": 12,
+		"damage": {
+			"min": 12,
+			"max": 18
+		},
+		"growth": 3,
+		"fightValue": 790,
+		"aiValue": 1020,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"venom": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.poison",
+				"val": 30
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CRoyalUraeus.def",
+			"iconLarge": "threerealms/sepulcher/royalUraeusLarge.png",
+			"iconSmall": "threerealms/sepulcher/royalUraeusSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVRoyalUraeus.def"
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		}
+	},
+	"ammit": {
+		"name": {
+			"singular": "Ammit",
+			"plural": "Ammits"
+		},
+		"description": "The Devourer of the Dead: crocodile, lion and river-horse in one.",
+		"faction": "sepulcher",
+		"level": 6,
+		"doubleWide": true,
+		"cost": {
+			"gold": 1000
+		},
+		"speed": 7,
+		"hitPoints": 100,
+		"attack": 17,
+		"defense": 15,
+		"damage": {
+			"min": 18,
+			"max": 25
+		},
+		"growth": 2,
+		"fightValue": 1550,
+		"aiValue": 1950,
+		"advMapAmount": {
+			"min": 4,
+			"max": 6
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CAmmit.def",
+			"iconLarge": "threerealms/sepulcher/ammitLarge.png",
+			"iconSmall": "threerealms/sepulcher/ammitSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVAmmit.def"
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"upgrades": [
+			"ammitDevourer"
+		]
+	},
+	"ammitDevourer": {
+		"name": {
+			"singular": "Ammit Devourer",
+			"plural": "Ammit Devourers"
+		},
+		"description": "It feeds on what it kills, restoring its own health.",
+		"faction": "sepulcher",
+		"level": 6,
+		"doubleWide": true,
+		"cost": {
+			"gold": 1250
+		},
+		"speed": 9,
+		"hitPoints": 120,
+		"attack": 19,
+		"defense": 17,
+		"damage": {
+			"min": 20,
+			"max": 28
+		},
+		"growth": 2,
+		"fightValue": 1950,
+		"aiValue": 2500,
+		"advMapAmount": {
+			"min": 4,
+			"max": 6
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"devour": {
+				"type": "LIFE_DRAIN",
+				"val": 50
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CAmmitDevourer.def",
+			"iconLarge": "threerealms/sepulcher/ammitDevourerLarge.png",
+			"iconSmall": "threerealms/sepulcher/ammitDevourerSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVAmmitDevourer.def"
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		}
+	},
+	"sphinx": {
+		"name": {
+			"singular": "Sphinx",
+			"plural": "Sphinxes"
+		},
+		"description": "Winged guardian of the tombs. Flies and is immune to mind spells.",
+		"faction": "sepulcher",
+		"level": 7,
+		"doubleWide": true,
+		"cost": {
+			"gold": 2800,
+			"sulfur": 1
+		},
+		"speed": 9,
+		"hitPoints": 200,
+		"attack": 21,
+		"defense": 21,
+		"damage": {
+			"min": 35,
+			"max": 55
+		},
+		"growth": 1,
+		"fightValue": 3900,
+		"aiValue": 5000,
+		"advMapAmount": {
+			"min": 1,
+			"max": 3
+		},
+		"hasDoubleWeek": false,
+		"abilities": {
+			"canFly": {
+				"type": "FLYING"
+			},
+			"mind": {
+				"type": "MIND_IMMUNITY"
+			},
+			"KING_1": {
+				"type": "KING",
+				"val": 0
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CSphinx.def",
+			"iconLarge": "threerealms/sepulcher/sphinxLarge.png",
+			"iconSmall": "threerealms/sepulcher/sphinxSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVSphinx.def"
+		},
+		"sound": {
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		},
+		"upgrades": [
+			"royalSphinx"
+		]
+	},
+	"royalSphinx": {
+		"name": {
+			"singular": "Royal Sphinx",
+			"plural": "Royal Sphinxes"
+		},
+		"description": "Its riddle unravels sorcery. Flies, immune to mind spells, resists hostile magic.",
+		"faction": "sepulcher",
+		"level": 7,
+		"doubleWide": true,
+		"cost": {
+			"gold": 4200,
+			"sulfur": 2
+		},
+		"speed": 13,
+		"hitPoints": 260,
+		"attack": 26,
+		"defense": 26,
+		"damage": {
+			"min": 40,
+			"max": 60
+		},
+		"growth": 1,
+		"fightValue": 6200,
+		"aiValue": 8500,
+		"advMapAmount": {
+			"min": 1,
+			"max": 3
+		},
+		"hasDoubleWeek": false,
+		"abilities": {
+			"canFly": {
+				"type": "FLYING"
+			},
+			"mind": {
+				"type": "MIND_IMMUNITY"
+			},
+			"resist": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 40
+			},
+			"KING_1": {
+				"type": "KING",
+				"val": 0
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/sepulcher/CRoyalSphinx.def",
+			"iconLarge": "threerealms/sepulcher/royalSphinxLarge.png",
+			"iconSmall": "threerealms/sepulcher/royalSphinxSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"map": "threerealms/sepulcher/AVRoyalSphinx.def"
+		},
+		"sound": {
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		}
+	}
+}

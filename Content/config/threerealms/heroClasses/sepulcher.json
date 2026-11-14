@@ -1,0 +1,140 @@
+{
+	"pharaoh": {
+		"name": "Pharaoh",
+		"faction": "sepulcher",
+		"affinity": "might",
+		"defaultTavern": 5,
+		"tavern": {},
+		"commander": "obsidianStatue",
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "AH00_.def",
+					"editorAnimation": "AH00_E.def"
+				}
+			}
+		},
+		"animation": {
+			"battle": {
+				"male": "CH00.DEF",
+				"female": "CH01.DEF"
+			}
+		},
+		"primarySkills": {
+			"attack": 2,
+			"defence": 2,
+			"spellpower": 1,
+			"knowledge": 1
+		},
+		"lowLevelChance": {
+			"attack": 40,
+			"defence": 35,
+			"spellpower": 10,
+			"knowledge": 15
+		},
+		"highLevelChance": {
+			"attack": 30,
+			"defence": 30,
+			"spellpower": 20,
+			"knowledge": 20
+		},
+		"secondarySkills": {
+			"pathfinding": 6,
+			"archery": 6,
+			"logistics": 8,
+			"scouting": 4,
+			"diplomacy": 4,
+			"navigation": 2,
+			"leadership": 9,
+			"wisdom": 3,
+			"mysticism": 2,
+			"luck": 5,
+			"ballistics": 5,
+			"eagleEye": 2,
+			"estates": 3,
+			"fireMagic": 1,
+			"airMagic": 4,
+			"waterMagic": 2,
+			"earthMagic": 2,
+			"scholar": 1,
+			"tactics": 9,
+			"artillery": 4,
+			"learning": 3,
+			"offence": 9,
+			"armorer": 7,
+			"intelligence": 1,
+			"sorcery": 1,
+			"resistance": 5,
+			"firstAid": 4
+		}
+	},
+	"hierophant": {
+		"name": "Hierophant",
+		"faction": "sepulcher",
+		"affinity": "magic",
+		"defaultTavern": 5,
+		"tavern": {},
+		"commander": "obsidianStatue",
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "AH00_.def",
+					"editorAnimation": "AH00_E.def"
+				}
+			}
+		},
+		"animation": {
+			"battle": {
+				"male": "CH00.DEF",
+				"female": "CH01.DEF"
+			}
+		},
+		"primarySkills": {
+			"attack": 0,
+			"defence": 1,
+			"spellpower": 2,
+			"knowledge": 2
+		},
+		"lowLevelChance": {
+			"attack": 10,
+			"defence": 15,
+			"spellpower": 35,
+			"knowledge": 40
+		},
+		"highLevelChance": {
+			"attack": 20,
+			"defence": 20,
+			"spellpower": 30,
+			"knowledge": 30
+		},
+		"secondarySkills": {
+			"pathfinding": 3,
+			"archery": 2,
+			"logistics": 4,
+			"scouting": 3,
+			"diplomacy": 4,
+			"navigation": 2,
+			"leadership": 3,
+			"wisdom": 10,
+			"mysticism": 8,
+			"luck": 6,
+			"ballistics": 2,
+			"eagleEye": 5,
+			"estates": 3,
+			"fireMagic": 2,
+			"airMagic": 8,
+			"waterMagic": 5,
+			"earthMagic": 4,
+			"scholar": 7,
+			"tactics": 2,
+			"artillery": 1,
+			"learning": 5,
+			"offence": 2,
+			"armorer": 3,
+			"intelligence": 8,
+			"sorcery": 7,
+			"resistance": 3,
+			"firstAid": 5
+		}
+	}
+}

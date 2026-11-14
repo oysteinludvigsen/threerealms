@@ -1,0 +1,951 @@
+{
+	"divineWind": {
+		"name": "Divine Wind",
+		"type": "combat",
+		"targetType": "CREATURE",
+		"level": 3,
+		"power": 0,
+		"school": {
+			"air": true
+		},
+		"gainChance": {
+			"castle": 3,
+			"rampart": 4,
+			"tower": 5,
+			"inferno": 0,
+			"necropolis": 0,
+			"dungeon": 2,
+			"stronghold": 1,
+			"fortress": 2,
+			"conflux": 6,
+			"pagoda": 9,
+			"sepulcher": 2,
+			"mycelium": 1
+		},
+		"flags": {
+			"positive": true
+		},
+		"counters": {
+			"spell.slow": true
+		},
+		"animation": {
+			"affect": [
+				"C15SPA0"
+			]
+		},
+		"sounds": {
+			"cast": "TAILWIND"
+		},
+		"levels": {
+			"none": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 12,
+				"power": 0,
+				"effects": {
+					"stacksSpeed": {
+						"type": "STACKS_SPEED",
+						"val": 2,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "A blessed gale carries the target creature stack: its speed is increased by 2 for the duration of the spell."
+			},
+			"basic": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 12,
+				"power": 0,
+				"effects": {
+					"stacksSpeed": {
+						"type": "STACKS_SPEED",
+						"val": 2,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "A blessed gale carries the target creature stack: its speed is increased by 2 for the duration of the spell."
+			},
+			"advanced": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 11,
+				"power": 0,
+				"effects": {
+					"stacksSpeed": {
+						"type": "STACKS_SPEED",
+						"val": 3,
+						"duration": "N_TURNS"
+					},
+					"noDistancePenalty": {
+						"type": "NO_DISTANCE_PENALTY",
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "A blessed gale carries the target creature stack: its speed is increased by 3 and its shooters suffer no range penalty for the duration of the spell."
+			},
+			"expert": {
+				"range": "X",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 10,
+				"power": 0,
+				"effects": {
+					"stacksSpeed": {
+						"type": "STACKS_SPEED",
+						"val": 4,
+						"duration": "N_TURNS"
+					},
+					"noDistancePenalty": {
+						"type": "NO_DISTANCE_PENALTY",
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "A blessed gale carries all friendly creature stacks: their speed is increased by 4 and their shooters suffer no range penalty for the duration of the spell."
+			}
+		},
+		"graphics": {
+			"iconBook": "threerealms/spells/divineWind_book.png",
+			"iconScroll": "threerealms/spells/divineWind_scroll.png",
+			"iconEffect": "threerealms/spells/divineWind_effect.png",
+			"iconScenarioBonus": "threerealms/spells/divineWind_scenariobonus.png",
+			"iconImmune": "threerealms/spells/divineWind_effect.png"
+		}
+	},
+	"spiritWard": {
+		"name": "Spirit Ward",
+		"type": "combat",
+		"targetType": "CREATURE",
+		"level": 2,
+		"power": 0,
+		"school": {
+			"water": true,
+			"air": true
+		},
+		"gainChance": {
+			"castle": 3,
+			"rampart": 3,
+			"tower": 4,
+			"inferno": 0,
+			"necropolis": 1,
+			"dungeon": 2,
+			"stronghold": 1,
+			"fortress": 2,
+			"conflux": 5,
+			"pagoda": 9,
+			"sepulcher": 2,
+			"mycelium": 2
+		},
+		"flags": {
+			"positive": true
+		},
+		"animation": {
+			"affect": [
+				"C11SPF0"
+			]
+		},
+		"sounds": {
+			"cast": "PROTECTW"
+		},
+		"levels": {
+			"none": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 9,
+				"power": 0,
+				"effects": {
+					"magicResistance": {
+						"type": "MAGIC_RESISTANCE",
+						"val": 15,
+						"duration": "N_TURNS"
+					},
+					"reduceAir": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.air",
+						"val": 10,
+						"duration": "N_TURNS"
+					},
+					"reduceFire": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.fire",
+						"val": 10,
+						"duration": "N_TURNS"
+					},
+					"reduceWater": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.water",
+						"val": 10,
+						"duration": "N_TURNS"
+					},
+					"reduceEarth": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.earth",
+						"val": 10,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "Spirits guard the target creature stack: it has a 15% chance to resist hostile spells and takes 10% less damage from all spell schools for the duration of the spell."
+			},
+			"basic": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 9,
+				"power": 0,
+				"effects": {
+					"magicResistance": {
+						"type": "MAGIC_RESISTANCE",
+						"val": 15,
+						"duration": "N_TURNS"
+					},
+					"reduceAir": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.air",
+						"val": 10,
+						"duration": "N_TURNS"
+					},
+					"reduceFire": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.fire",
+						"val": 10,
+						"duration": "N_TURNS"
+					},
+					"reduceWater": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.water",
+						"val": 10,
+						"duration": "N_TURNS"
+					},
+					"reduceEarth": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.earth",
+						"val": 10,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "Spirits guard the target creature stack: it has a 15% chance to resist hostile spells and takes 10% less damage from all spell schools for the duration of the spell."
+			},
+			"advanced": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 8,
+				"power": 0,
+				"effects": {
+					"magicResistance": {
+						"type": "MAGIC_RESISTANCE",
+						"val": 25,
+						"duration": "N_TURNS"
+					},
+					"reduceAir": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.air",
+						"val": 15,
+						"duration": "N_TURNS"
+					},
+					"reduceFire": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.fire",
+						"val": 15,
+						"duration": "N_TURNS"
+					},
+					"reduceWater": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.water",
+						"val": 15,
+						"duration": "N_TURNS"
+					},
+					"reduceEarth": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.earth",
+						"val": 15,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "Spirits guard the target creature stack: it has a 25% chance to resist hostile spells and takes 15% less damage from all spell schools for the duration of the spell."
+			},
+			"expert": {
+				"range": "X",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 7,
+				"power": 0,
+				"effects": {
+					"magicResistance": {
+						"type": "MAGIC_RESISTANCE",
+						"val": 35,
+						"duration": "N_TURNS"
+					},
+					"reduceAir": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.air",
+						"val": 20,
+						"duration": "N_TURNS"
+					},
+					"reduceFire": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.fire",
+						"val": 20,
+						"duration": "N_TURNS"
+					},
+					"reduceWater": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.water",
+						"val": 20,
+						"duration": "N_TURNS"
+					},
+					"reduceEarth": {
+						"type": "SPELL_DAMAGE_REDUCTION",
+						"subtype": "spellSchool.earth",
+						"val": 20,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "Spirits guard all friendly creature stacks: they have a 35% chance to resist hostile spells and take 20% less damage from all spell schools for the duration of the spell."
+			}
+		},
+		"graphics": {
+			"iconBook": "threerealms/spells/spiritWard_book.png",
+			"iconScroll": "threerealms/spells/spiritWard_scroll.png",
+			"iconEffect": "threerealms/spells/spiritWard_effect.png",
+			"iconScenarioBonus": "threerealms/spells/spiritWard_scenariobonus.png",
+			"iconImmune": "threerealms/spells/spiritWard_effect.png"
+		}
+	},
+	"sunsJudgment": {
+		"name": "Sun's Judgment",
+		"type": "combat",
+		"targetType": "CREATURE",
+		"level": 4,
+		"power": 30,
+		"school": {
+			"fire": true
+		},
+		"gainChance": {
+			"castle": 4,
+			"rampart": 2,
+			"tower": 3,
+			"inferno": 4,
+			"necropolis": 1,
+			"dungeon": 2,
+			"stronghold": 3,
+			"fortress": 3,
+			"conflux": 4,
+			"pagoda": 3,
+			"sepulcher": 9,
+			"mycelium": 1
+		},
+		"flags": {
+			"damage": true,
+			"negative": true
+		},
+		"targetCondition": {
+			"noneOf": {
+				"bonus.SIEGE_WEAPON": "absolute"
+			}
+		},
+		"animation": {
+			"hit": [
+				"C04SPF0"
+			]
+		},
+		"sounds": {
+			"cast": "FIREBLST"
+		},
+		"levels": {
+			"none": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 22,
+				"power": 30,
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"scorched": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.attack",
+								"val": -3,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "A beam of searing light strikes the target creature stack for 30 base damage (plus 30 per spell power) and reduces its Attack by 3 for the duration of the spell."
+			},
+			"basic": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 22,
+				"power": 30,
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"scorched": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.attack",
+								"val": -3,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "A beam of searing light strikes the target creature stack for 30 base damage (plus 30 per spell power) and reduces its Attack by 3 for the duration of the spell."
+			},
+			"advanced": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 20,
+				"power": 60,
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"scorched": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.attack",
+								"val": -4,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "A beam of searing light strikes the target creature stack for 60 base damage (plus 30 per spell power) and reduces its Attack by 4 for the duration of the spell."
+			},
+			"expert": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 18,
+				"power": 90,
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"scorched": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.attack",
+								"val": -5,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "A beam of searing light strikes the target creature stack for 90 base damage (plus 30 per spell power) and reduces its Attack by 5 for the duration of the spell."
+			}
+		},
+		"graphics": {
+			"iconBook": "threerealms/spells/sunsJudgment_book.png",
+			"iconScroll": "threerealms/spells/sunsJudgment_scroll.png",
+			"iconEffect": "threerealms/spells/sunsJudgment_effect.png",
+			"iconScenarioBonus": "threerealms/spells/sunsJudgment_scenariobonus.png",
+			"iconImmune": "threerealms/spells/sunsJudgment_effect.png"
+		}
+	},
+	"embalm": {
+		"name": "Embalm",
+		"type": "combat",
+		"targetType": "CREATURE",
+		"level": 2,
+		"power": 10,
+		"school": {
+			"earth": true
+		},
+		"gainChance": {
+			"castle": 3,
+			"rampart": 3,
+			"tower": 2,
+			"inferno": 2,
+			"necropolis": 5,
+			"dungeon": 2,
+			"stronghold": 3,
+			"fortress": 3,
+			"conflux": 2,
+			"pagoda": 2,
+			"sepulcher": 9,
+			"mycelium": 2
+		},
+		"flags": {
+			"positive": true
+		},
+		"targetCondition": {
+			"noneOf": {
+				"bonus.SIEGE_WEAPON": "absolute"
+			}
+		},
+		"animation": {
+			"affect": [
+				{
+					"defName": "C01SPE0",
+					"transparency": 0.5
+				}
+			]
+		},
+		"sounds": {
+			"cast": "CURE"
+		},
+		"levels": {
+			"none": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 9,
+				"power": 20,
+				"battleEffects": {
+					"heal": {
+						"type": "core:heal",
+						"healLevel": "heal",
+						"healPower": "permanent",
+						"optional": true
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"wrapped": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.defence",
+								"val": 2,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "Sacred resins restore 20 health (plus 10 per spell power) to the target creature stack, without raising the dead, and increase its Defense by 2 for the duration of the spell."
+			},
+			"basic": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 9,
+				"power": 20,
+				"battleEffects": {
+					"heal": {
+						"type": "core:heal",
+						"healLevel": "heal",
+						"healPower": "permanent",
+						"optional": true
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"wrapped": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.defence",
+								"val": 2,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "Sacred resins restore 20 health (plus 10 per spell power) to the target creature stack, without raising the dead, and increase its Defense by 2 for the duration of the spell."
+			},
+			"advanced": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 8,
+				"power": 40,
+				"battleEffects": {
+					"heal": {
+						"type": "core:heal",
+						"healLevel": "heal",
+						"healPower": "permanent",
+						"optional": true
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"wrapped": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.defence",
+								"val": 3,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "Sacred resins restore 40 health (plus 10 per spell power) to the target creature stack, without raising the dead, and increase its Defense by 3 for the duration of the spell."
+			},
+			"expert": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 7,
+				"power": 60,
+				"battleEffects": {
+					"heal": {
+						"type": "core:heal",
+						"healLevel": "heal",
+						"healPower": "permanent",
+						"optional": true
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"wrapped": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.defence",
+								"val": 4,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "Sacred resins restore 60 health (plus 10 per spell power) to the target creature stack, without raising the dead, and increase its Defense by 4 for the duration of the spell."
+			}
+		},
+		"graphics": {
+			"iconBook": "threerealms/spells/embalm_book.png",
+			"iconScroll": "threerealms/spells/embalm_scroll.png",
+			"iconEffect": "threerealms/spells/embalm_effect.png",
+			"iconScenarioBonus": "threerealms/spells/embalm_scenariobonus.png",
+			"iconImmune": "threerealms/spells/embalm_effect.png"
+		}
+	},
+	"sporeCloud": {
+		"name": "Spore Cloud",
+		"type": "combat",
+		"targetType": "LOCATION",
+		"level": 3,
+		"power": 5,
+		"school": {
+			"earth": true
+		},
+		"gainChance": {
+			"castle": 2,
+			"rampart": 4,
+			"tower": 2,
+			"inferno": 2,
+			"necropolis": 3,
+			"dungeon": 4,
+			"stronghold": 3,
+			"fortress": 4,
+			"conflux": 3,
+			"pagoda": 1,
+			"sepulcher": 1,
+			"mycelium": 9
+		},
+		"flags": {
+			"damage": true,
+			"negative": true
+		},
+		"targetCondition": {
+			"noneOf": {
+				"bonus.SIEGE_WEAPON": "absolute"
+			}
+		},
+		"animation": {
+			"hit": [
+				"C17SPW0"
+			]
+		},
+		"sounds": {
+			"cast": "DISEASE"
+		},
+		"levels": {
+			"none": {
+				"range": "0,1",
+				"targetModifier": {
+					"smart": false
+				},
+				"cost": 15,
+				"power": 10,
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"sporeAttack": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.attack",
+								"val": -2,
+								"duration": "N_TURNS"
+							},
+							"sporeDefence": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.defence",
+								"val": -1,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "A choking cloud of spores deals 10 base damage (plus 5 per spell power) to all creatures in the target hex and its neighbours, and reduces their Attack by 2 and Defense by 1 for the duration of the spell."
+			},
+			"basic": {
+				"range": "0,1",
+				"targetModifier": {
+					"smart": false
+				},
+				"cost": 15,
+				"power": 10,
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"sporeAttack": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.attack",
+								"val": -2,
+								"duration": "N_TURNS"
+							},
+							"sporeDefence": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.defence",
+								"val": -1,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "A choking cloud of spores deals 10 base damage (plus 5 per spell power) to all creatures in the target hex and its neighbours, and reduces their Attack by 2 and Defense by 1 for the duration of the spell."
+			},
+			"advanced": {
+				"range": "0,1",
+				"targetModifier": {
+					"smart": false
+				},
+				"cost": 14,
+				"power": 20,
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"sporeAttack": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.attack",
+								"val": -3,
+								"duration": "N_TURNS"
+							},
+							"sporeDefence": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.defence",
+								"val": -2,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "A choking cloud of spores deals 20 base damage (plus 5 per spell power) to all creatures in the target hex and its neighbours, and reduces their Attack by 3 and Defense by 2 for the duration of the spell."
+			},
+			"expert": {
+				"range": "0-2",
+				"targetModifier": {
+					"smart": false
+				},
+				"cost": 13,
+				"power": 30,
+				"battleEffects": {
+					"directDamage": {
+						"type": "core:damage"
+					},
+					"timed": {
+						"type": "core:timed",
+						"bonus": {
+							"sporeAttack": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.attack",
+								"val": -4,
+								"duration": "N_TURNS"
+							},
+							"sporeDefence": {
+								"type": "PRIMARY_SKILL",
+								"subtype": "primarySkill.defence",
+								"val": -3,
+								"duration": "N_TURNS"
+							}
+						}
+					}
+				},
+				"description": "A choking cloud of spores deals 30 base damage (plus 5 per spell power) to all creatures within two hexes of the target hex, and reduces their Attack by 4 and Defense by 3 for the duration of the spell."
+			}
+		},
+		"graphics": {
+			"iconBook": "threerealms/spells/sporeCloud_book.png",
+			"iconScroll": "threerealms/spells/sporeCloud_scroll.png",
+			"iconEffect": "threerealms/spells/sporeCloud_effect.png",
+			"iconScenarioBonus": "threerealms/spells/sporeCloud_scenariobonus.png",
+			"iconImmune": "threerealms/spells/sporeCloud_effect.png"
+		}
+	},
+	"fungalRegrowth": {
+		"name": "Fungal Regrowth",
+		"type": "combat",
+		"targetType": "CREATURE",
+		"level": 4,
+		"power": 0,
+		"school": {
+			"earth": true
+		},
+		"gainChance": {
+			"castle": 2,
+			"rampart": 5,
+			"tower": 2,
+			"inferno": 1,
+			"necropolis": 2,
+			"dungeon": 3,
+			"stronghold": 3,
+			"fortress": 4,
+			"conflux": 3,
+			"pagoda": 2,
+			"sepulcher": 1,
+			"mycelium": 9
+		},
+		"flags": {
+			"positive": true
+		},
+		"targetCondition": {
+			"noneOf": {
+				"bonus.SIEGE_WEAPON": "absolute"
+			}
+		},
+		"animation": {
+			"affect": [
+				"C16SPE"
+			]
+		},
+		"sounds": {
+			"cast": "REGENER"
+		},
+		"levels": {
+			"none": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 20,
+				"power": 0,
+				"effects": {
+					"regrowth": {
+						"type": "HP_REGENERATION",
+						"val": 20,
+						"duration": "N_TURNS"
+					},
+					"stackHealth": {
+						"type": "STACK_HEALTH",
+						"val": 10,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "Fast-growing mycelium knits the target creature stack: it regenerates 20 health at the start of each of its turns and has 10% more health for the duration of the spell."
+			},
+			"basic": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 20,
+				"power": 0,
+				"effects": {
+					"regrowth": {
+						"type": "HP_REGENERATION",
+						"val": 20,
+						"duration": "N_TURNS"
+					},
+					"stackHealth": {
+						"type": "STACK_HEALTH",
+						"val": 10,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "Fast-growing mycelium knits the target creature stack: it regenerates 20 health at the start of each of its turns and has 10% more health for the duration of the spell."
+			},
+			"advanced": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 18,
+				"power": 0,
+				"effects": {
+					"regrowth": {
+						"type": "HP_REGENERATION",
+						"val": 35,
+						"duration": "N_TURNS"
+					},
+					"stackHealth": {
+						"type": "STACK_HEALTH",
+						"val": 15,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "Fast-growing mycelium knits the target creature stack: it regenerates 35 health at the start of each of its turns and has 15% more health for the duration of the spell."
+			},
+			"expert": {
+				"range": "X",
+				"targetModifier": {
+					"smart": true
+				},
+				"cost": 16,
+				"power": 0,
+				"effects": {
+					"regrowth": {
+						"type": "HP_REGENERATION",
+						"val": 50,
+						"duration": "N_TURNS"
+					},
+					"stackHealth": {
+						"type": "STACK_HEALTH",
+						"val": 20,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "Fast-growing mycelium knits all friendly creature stacks: they regenerate 50 health at the start of each of their turns and have 20% more health for the duration of the spell."
+			}
+		},
+		"graphics": {
+			"iconBook": "threerealms/spells/fungalRegrowth_book.png",
+			"iconScroll": "threerealms/spells/fungalRegrowth_scroll.png",
+			"iconEffect": "threerealms/spells/fungalRegrowth_effect.png",
+			"iconScenarioBonus": "threerealms/spells/fungalRegrowth_scenariobonus.png",
+			"iconImmune": "threerealms/spells/fungalRegrowth_effect.png"
+		}
+	}
+}

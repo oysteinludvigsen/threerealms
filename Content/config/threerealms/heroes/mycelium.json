@@ -1,0 +1,810 @@
+{
+	"grok": {
+		"class": "broodwarden",
+		"female": false,
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "offence"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero00Large.png",
+			"small": "threerealms/mycelium/hero00Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero00SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero00SpecSmall.png"
+		},
+		"texts": {
+			"name": "Murk",
+			"biography": "A troll who woke one morning to find his thoughts were no longer only his.",
+			"specialty": {
+				"name": "Offense",
+				"description": "Receives a 5% per level bonus to the Offense skill.",
+				"tooltip": "Offense"
+			}
+		}
+	},
+	"lichen": {
+		"class": "broodwarden",
+		"female": true,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "logistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "logistics"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero01Large.png",
+			"small": "threerealms/mycelium/hero01Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero01SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero01SpecSmall.png"
+		},
+		"texts": {
+			"name": "Lichen",
+			"biography": "She marches the creepers through cracks no army should fit.",
+			"specialty": {
+				"name": "Logistics",
+				"description": "Receives a 5% per level bonus to the Logistics skill.",
+				"tooltip": "Logistics"
+			}
+		}
+	},
+	"bracket": {
+		"class": "broodwarden",
+		"female": false,
+		"skills": [
+			{
+				"skill": "armorer",
+				"level": "basic"
+			},
+			{
+				"skill": "resistance",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "mycelgolem"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero02Large.png",
+			"small": "threerealms/mycelium/hero02Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero02SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero02SpecSmall.png"
+		},
+		"texts": {
+			"name": "Bracket",
+			"biography": "The first golem that learned to weave others.",
+			"specialty": {
+				"name": "Mycel Golems",
+				"description": "Increases the Attack and Defense of any Mycel Golems and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Mycel Golems"
+			}
+		}
+	},
+	"puff": {
+		"class": "broodwarden",
+		"female": false,
+		"skills": [
+			{
+				"skill": "scouting",
+				"level": "basic"
+			},
+			{
+				"skill": "luck",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "sporeling"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero03Large.png",
+			"small": "threerealms/mycelium/hero03Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero03SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero03SpecSmall.png"
+		},
+		"texts": {
+			"name": "Puffball",
+			"biography": "Small, cheerful, and followed by more sporelings than anyone can count.",
+			"specialty": {
+				"name": "Sporelings",
+				"description": "Increases the Attack and Defense of any Sporelings and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Sporelings"
+			}
+		}
+	},
+	"moldra": {
+		"class": "broodwarden",
+		"female": true,
+		"skills": [
+			{
+				"skill": "archery",
+				"level": "basic"
+			},
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "spitter"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero04Large.png",
+			"small": "threerealms/mycelium/hero04Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero04SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero04SpecSmall.png"
+		},
+		"texts": {
+			"name": "Moldra",
+			"biography": "She taught the spitters to lead their targets.",
+			"specialty": {
+				"name": "Mold Spitters",
+				"description": "Increases the Attack and Defense of any Mold Spitters and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Mold Spitters"
+			}
+		}
+	},
+	"stump": {
+		"class": "broodwarden",
+		"female": false,
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			},
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "rottroll"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero05Large.png",
+			"small": "threerealms/mycelium/hero05Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero05SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero05SpecSmall.png"
+		},
+		"texts": {
+			"name": "Stump",
+			"biography": "Chieftain of a troll clan that the network adopted whole.",
+			"specialty": {
+				"name": "Rot Trolls",
+				"description": "Increases the Attack and Defense of any Rot Trolls and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Rot Trolls"
+			}
+		}
+	},
+	"thresh": {
+		"class": "broodwarden",
+		"female": false,
+		"skills": [
+			{
+				"skill": "logistics",
+				"level": "basic"
+			},
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "armorer"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero06Large.png",
+			"small": "threerealms/mycelium/hero06Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero06SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero06SpecSmall.png"
+		},
+		"texts": {
+			"name": "Thresh",
+			"biography": "Slow to anger and slower to fall.",
+			"specialty": {
+				"name": "Armorer",
+				"description": "Receives a 5% per level bonus to the Armorer skill.",
+				"tooltip": "Armorer"
+			}
+		}
+	},
+	"gilla": {
+		"class": "broodwarden",
+		"female": true,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "estates",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "estates"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero07Large.png",
+			"small": "threerealms/mycelium/hero07Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero07SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero07SpecSmall.png"
+		},
+		"texts": {
+			"name": "Gilla",
+			"biography": "Keeper of the spore markets; everything rots into profit eventually.",
+			"specialty": {
+				"name": "Estates",
+				"description": "Receives a 5% per level bonus to the Estates skill.",
+				"tooltip": "Estates"
+			}
+		}
+	},
+	"mycos": {
+		"class": "sporecaller",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "mysticism"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero08Large.png",
+			"small": "threerealms/mycelium/hero08Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero08SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero08SpecSmall.png"
+		},
+		"texts": {
+			"name": "Mycos",
+			"biography": "He speaks for the network, when the network wishes to speak.",
+			"specialty": {
+				"name": "Mysticism",
+				"description": "Receives a 5% per level bonus to the Mysticism skill.",
+				"tooltip": "Mysticism"
+			}
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"amanita": {
+		"class": "sporecaller",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "sorcery"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero09Large.png",
+			"small": "threerealms/mycelium/hero09Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero09SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero09SpecSmall.png"
+		},
+		"texts": {
+			"name": "Amanita",
+			"biography": "Beautiful, pale, and best admired from a distance.",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Receives a 5% per level bonus to the Sorcery skill.",
+				"tooltip": "Sorcery"
+			}
+		},
+		"spellbook": [
+			"magicArrow"
+		]
+	},
+	"ergot": {
+		"class": "sporecaller",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "intelligence"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero10Large.png",
+			"small": "threerealms/mycelium/hero10Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero10SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero10SpecSmall.png"
+		},
+		"texts": {
+			"name": "Ergot",
+			"biography": "His visions come from the black grain, and they are usually right.",
+			"specialty": {
+				"name": "Intelligence",
+				"description": "Receives a 5% per level bonus to the Intelligence skill.",
+				"tooltip": "Intelligence"
+			}
+		},
+		"spellbook": [
+			"curse"
+		]
+	},
+	"morel": {
+		"class": "sporecaller",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "firstAid",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "firstAid"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero11Large.png",
+			"small": "threerealms/mycelium/hero11Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero11SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero11SpecSmall.png"
+		},
+		"texts": {
+			"name": "Morel",
+			"biography": "A healer who knows which caps mend and which merely end the pain.",
+			"specialty": {
+				"name": "First Aid",
+				"description": "Receives a 5% per level bonus to the First Aid skill.",
+				"tooltip": "First Aid"
+			}
+		},
+		"spellbook": [
+			"cure"
+		]
+	},
+	"cordy": {
+		"class": "sporecaller",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "eagleEye",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "creeper"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero12Large.png",
+			"small": "threerealms/mycelium/hero12Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero12SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero12SpecSmall.png"
+		},
+		"texts": {
+			"name": "Cordyceps",
+			"biography": "What he grows inside his enemies does the marching for him.",
+			"specialty": {
+				"name": "Fungal Creepers",
+				"description": "Increases the Attack and Defense of any Fungal Creepers and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Fungal Creepers"
+			}
+		},
+		"spellbook": [
+			"weakness"
+		]
+	},
+	"velva": {
+		"class": "sporecaller",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "learning",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "sporemother"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero13Large.png",
+			"small": "threerealms/mycelium/hero13Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero13SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero13SpecSmall.png"
+		},
+		"texts": {
+			"name": "Velva",
+			"biography": "Daughter of a Spore Mother, she remembers everything her mother ever tasted.",
+			"specialty": {
+				"name": "Spore Mothers",
+				"description": "Increases the Attack and Defense of any Spore Mothers and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Spore Mothers"
+			}
+		},
+		"spellbook": [
+			"shield"
+		]
+	},
+	"rhizo": {
+		"class": "sporecaller",
+		"female": false,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "resistance",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "colossus"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero14Large.png",
+			"small": "threerealms/mycelium/hero14Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero14SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero14SpecSmall.png"
+		},
+		"texts": {
+			"name": "Rhizo",
+			"biography": "He tends the roots of the great caps until they stand up and walk.",
+			"specialty": {
+				"name": "Fungal Colossi",
+				"description": "Increases the Attack and Defense of any Fungal Colossi and their upgrades for every few levels the hero has attained, as with other creature specialists.",
+				"tooltip": "Fungal Colossi"
+			}
+		},
+		"spellbook": [
+			"stoneSkin"
+		]
+	},
+	"gloam": {
+		"class": "sporecaller",
+		"female": true,
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "scholar",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "learning"
+		},
+		"army": [
+			{
+				"creature": "sporeling",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "creeper",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "spitter",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"images": {
+			"large": "threerealms/mycelium/hero15Large.png",
+			"small": "threerealms/mycelium/hero15Small.png",
+			"specialtyLarge": "threerealms/mycelium/hero15SpecLarge.png",
+			"specialtySmall": "threerealms/mycelium/hero15SpecSmall.png"
+		},
+		"texts": {
+			"name": "Gloam",
+			"biography": "A scholar of the dark between the roots.",
+			"specialty": {
+				"name": "Learning",
+				"description": "Receives a 5% per level bonus to the Learning skill.",
+				"tooltip": "Learning"
+			}
+		},
+		"spellbook": [
+			"bloodlust"
+		]
+	}
+}

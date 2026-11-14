@@ -1,0 +1,870 @@
+{
+	"ashigaru": {
+		"name": {
+			"singular": "Ashigaru",
+			"plural": "Ashigaru"
+		},
+		"description": "Conscript spearmen of the mountain clans. Their long yari stops a cavalry charge.",
+		"faction": "pagoda",
+		"level": 1,
+		"doubleWide": false,
+		"cost": {
+			"gold": 60
+		},
+		"speed": 4,
+		"hitPoints": 10,
+		"attack": 4,
+		"defense": 5,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"growth": 14,
+		"fightValue": 100,
+		"aiValue": 80,
+		"advMapAmount": {
+			"min": 20,
+			"max": 50
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"chargeImmunity": {
+				"type": "CHARGE_IMMUNITY"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CAshigaru.def",
+			"map": "threerealms/pagoda/AVAshigaru.def",
+			"iconLarge": "threerealms/pagoda/ashigaruLarge.png",
+			"iconSmall": "threerealms/pagoda/ashigaruSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"upgrades": [
+			"samurai"
+		]
+	},
+	"samurai": {
+		"name": {
+			"singular": "Samurai",
+			"plural": "Samurai"
+		},
+		"description": "Sworn retainers in lacquered armour. Immune to cavalry charges and steadfast in morale.",
+		"faction": "pagoda",
+		"level": 1,
+		"doubleWide": false,
+		"cost": {
+			"gold": 85
+		},
+		"speed": 6,
+		"hitPoints": 12,
+		"attack": 6,
+		"defense": 6,
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		"growth": 14,
+		"fightValue": 125,
+		"aiValue": 130,
+		"advMapAmount": {
+			"min": 20,
+			"max": 30
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"chargeImmunity": {
+				"type": "CHARGE_IMMUNITY"
+			},
+			"discipline": {
+				"type": "MORALE",
+				"val": 1
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CSamurai.def",
+			"map": "threerealms/pagoda/AVSamurai.def",
+			"iconLarge": "threerealms/pagoda/samuraiLarge.png",
+			"iconSmall": "threerealms/pagoda/samuraiSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	},
+	"kappa": {
+		"name": {
+			"singular": "Kappa",
+			"plural": "Kappas"
+		},
+		"description": "River imps with shells like bucklers. Tough for their size.",
+		"faction": "pagoda",
+		"level": 2,
+		"doubleWide": false,
+		"cost": {
+			"gold": 115
+		},
+		"speed": 5,
+		"hitPoints": 18,
+		"attack": 6,
+		"defense": 7,
+		"damage": {
+			"min": 2,
+			"max": 4
+		},
+		"growth": 9,
+		"fightValue": 160,
+		"aiValue": 185,
+		"advMapAmount": {
+			"min": 16,
+			"max": 25
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/pagoda/CKappa.def",
+			"map": "threerealms/pagoda/AVKappa.def",
+			"iconLarge": "threerealms/pagoda/kappaLarge.png",
+			"iconSmall": "threerealms/pagoda/kappaSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"upgrades": [
+			"kappaElder"
+		]
+	},
+	"kappaElder": {
+		"name": {
+			"singular": "Kappa Elder",
+			"plural": "Kappa Elders"
+		},
+		"description": "Old kappa that have kept their water dish full for a century. They regenerate wounds each round.",
+		"faction": "pagoda",
+		"level": 2,
+		"doubleWide": false,
+		"cost": {
+			"gold": 145
+		},
+		"speed": 6,
+		"hitPoints": 20,
+		"attack": 7,
+		"defense": 8,
+		"damage": {
+			"min": 2,
+			"max": 5
+		},
+		"growth": 9,
+		"fightValue": 200,
+		"aiValue": 245,
+		"advMapAmount": {
+			"min": 16,
+			"max": 25
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"regenerate": {
+				"type": "HP_REGENERATION",
+				"val": 20
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CKappaElder.def",
+			"map": "threerealms/pagoda/AVKappaElder.def",
+			"iconLarge": "threerealms/pagoda/kappaElderLarge.png",
+			"iconSmall": "threerealms/pagoda/kappaElderSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	},
+	"tengu": {
+		"name": {
+			"singular": "Tengu",
+			"plural": "Tengu"
+		},
+		"description": "Crow-winged mountain ascetics. Fast flyers.",
+		"faction": "pagoda",
+		"level": 3,
+		"doubleWide": false,
+		"cost": {
+			"gold": 210
+		},
+		"speed": 8,
+		"hitPoints": 25,
+		"attack": 8,
+		"defense": 7,
+		"damage": {
+			"min": 3,
+			"max": 5
+		},
+		"growth": 7,
+		"fightValue": 265,
+		"aiValue": 335,
+		"advMapAmount": {
+			"min": 12,
+			"max": 20
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"canFly": {
+				"type": "FLYING"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CTengu.def",
+			"map": "threerealms/pagoda/AVTengu.def",
+			"iconLarge": "threerealms/pagoda/tenguLarge.png",
+			"iconSmall": "threerealms/pagoda/tenguSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"upgrades": [
+			"daitengu"
+		]
+	},
+	"daitengu": {
+		"name": {
+			"singular": "Daitengu",
+			"plural": "Daitengu"
+		},
+		"description": "Masters of the tengu. They strike and are gone: enemies cannot retaliate.",
+		"faction": "pagoda",
+		"level": 3,
+		"doubleWide": false,
+		"cost": {
+			"gold": 260
+		},
+		"speed": 10,
+		"hitPoints": 25,
+		"attack": 9,
+		"defense": 8,
+		"damage": {
+			"min": 3,
+			"max": 6
+		},
+		"growth": 7,
+		"fightValue": 370,
+		"aiValue": 480,
+		"advMapAmount": {
+			"min": 12,
+			"max": 20
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"canFly": {
+				"type": "FLYING"
+			},
+			"noRetaliation": {
+				"type": "BLOCKS_RETALIATION"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CDaitengu.def",
+			"map": "threerealms/pagoda/AVDaitengu.def",
+			"iconLarge": "threerealms/pagoda/daitenguLarge.png",
+			"iconSmall": "threerealms/pagoda/daitenguSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		}
+	},
+	"kitsune": {
+		"name": {
+			"singular": "Kitsune",
+			"plural": "Kitsune"
+		},
+		"description": "Fox spirits that hurl foxfire. Ranged attackers with no melee penalty.",
+		"faction": "pagoda",
+		"level": 4,
+		"doubleWide": false,
+		"cost": {
+			"gold": 320
+		},
+		"speed": 6,
+		"hitPoints": 26,
+		"attack": 10,
+		"defense": 8,
+		"damage": {
+			"min": 6,
+			"max": 8
+		},
+		"growth": 4,
+		"fightValue": 330,
+		"aiValue": 430,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"shooter": {
+				"type": "SHOOTER"
+			},
+			"noMeleePenalty": {
+				"type": "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CKitsune.def",
+			"map": "threerealms/pagoda/AVKitsune.def",
+			"iconLarge": "threerealms/pagoda/kitsuneLarge.png",
+			"iconSmall": "threerealms/pagoda/kitsuneSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"missile": {
+				"projectile": "PMAGEX.DEF",
+				"frameAngles": [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"attackClimaxFrame": 5,
+				"offset": {
+					"upperX": 12,
+					"upperY": -34,
+					"middleX": 20,
+					"middleY": -24,
+					"lowerX": 12,
+					"lowerY": -10
+				}
+			}
+		},
+		"sound": {
+			"attack": "MAGEATTK.wav",
+			"defend": "MAGEDFND.wav",
+			"killed": "MAGEKILL.wav",
+			"move": "MAGEMOVE.wav",
+			"wince": "MAGEWNCE.wav",
+			"shoot": "MAGESHOT.wav"
+		},
+		"shots": 12,
+		"upgrades": [
+			"nineTailedKitsune"
+		]
+	},
+	"nineTailedKitsune": {
+		"name": {
+			"singular": "Nine-Tailed Kitsune",
+			"plural": "Nine-Tailed Kitsune"
+		},
+		"description": "A fox with all nine tails. Ranged, no melee penalty, and resistant to hostile magic.",
+		"faction": "pagoda",
+		"level": 4,
+		"doubleWide": false,
+		"cost": {
+			"gold": 400
+		},
+		"speed": 8,
+		"hitPoints": 30,
+		"attack": 11,
+		"defense": 9,
+		"damage": {
+			"min": 6,
+			"max": 9
+		},
+		"growth": 4,
+		"fightValue": 470,
+		"aiValue": 610,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"shooter": {
+				"type": "SHOOTER"
+			},
+			"noMeleePenalty": {
+				"type": "NO_MELEE_PENALTY"
+			},
+			"resist": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 20
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CNineTailedKitsune.def",
+			"map": "threerealms/pagoda/AVNineTailedKitsune.def",
+			"iconLarge": "threerealms/pagoda/nineTailedKitsuneLarge.png",
+			"iconSmall": "threerealms/pagoda/nineTailedKitsuneSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			},
+			"missile": {
+				"projectile": "PMAGEX.DEF",
+				"frameAngles": [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"attackClimaxFrame": 5,
+				"offset": {
+					"upperX": 12,
+					"upperY": -34,
+					"middleX": 20,
+					"middleY": -24,
+					"lowerX": 12,
+					"lowerY": -10
+				}
+			}
+		},
+		"sound": {
+			"attack": "MAGEATTK.wav",
+			"defend": "MAGEDFND.wav",
+			"killed": "MAGEKILL.wav",
+			"move": "MAGEMOVE.wav",
+			"wince": "MAGEWNCE.wav",
+			"shoot": "MAGESHOT.wav"
+		},
+		"shots": 24
+	},
+	"oni": {
+		"name": {
+			"singular": "Oni",
+			"plural": "Oni"
+		},
+		"description": "Horned ogres of the passes with iron-studded clubs.",
+		"faction": "pagoda",
+		"level": 5,
+		"doubleWide": false,
+		"cost": {
+			"gold": 525
+		},
+		"speed": 6,
+		"hitPoints": 55,
+		"attack": 14,
+		"defense": 11,
+		"damage": {
+			"min": 12,
+			"max": 18
+		},
+		"growth": 3,
+		"fightValue": 640,
+		"aiValue": 810,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"hasDoubleWeek": true,
+		"abilities": {},
+		"graphics": {
+			"animation": "threerealms/pagoda/COni.def",
+			"map": "threerealms/pagoda/AVOni.def",
+			"iconLarge": "threerealms/pagoda/oniLarge.png",
+			"iconSmall": "threerealms/pagoda/oniSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		},
+		"upgrades": [
+			"oniWarlord"
+		]
+	},
+	"oniWarlord": {
+		"name": {
+			"singular": "Oni Warlord",
+			"plural": "Oni Warlords"
+		},
+		"description": "An oni that has taken a hundred heads. Its club ignores part of the enemy's Defense.",
+		"faction": "pagoda",
+		"level": 5,
+		"doubleWide": false,
+		"cost": {
+			"gold": 625
+		},
+		"speed": 7,
+		"hitPoints": 65,
+		"attack": 16,
+		"defense": 13,
+		"damage": {
+			"min": 12,
+			"max": 20
+		},
+		"growth": 3,
+		"fightValue": 820,
+		"aiValue": 1060,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"crush": {
+				"type": "ENEMY_DEFENCE_REDUCTION",
+				"val": 30
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/COniWarlord.def",
+			"map": "threerealms/pagoda/AVOniWarlord.def",
+			"iconLarge": "threerealms/pagoda/oniWarlordLarge.png",
+			"iconSmall": "threerealms/pagoda/oniWarlordSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+		}
+	},
+	"kirin": {
+		"name": {
+			"singular": "Kirin",
+			"plural": "Kirin"
+		},
+		"description": "Scaled chimera that walks on cloud. Flies.",
+		"faction": "pagoda",
+		"level": 6,
+		"doubleWide": true,
+		"cost": {
+			"gold": 950
+		},
+		"speed": 9,
+		"hitPoints": 95,
+		"attack": 16,
+		"defense": 15,
+		"damage": {
+			"min": 18,
+			"max": 24
+		},
+		"growth": 2,
+		"fightValue": 1500,
+		"aiValue": 1900,
+		"advMapAmount": {
+			"min": 4,
+			"max": 6
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"canFly": {
+				"type": "FLYING"
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CKirin.def",
+			"map": "threerealms/pagoda/AVKirin.def",
+			"iconLarge": "threerealms/pagoda/kirinLarge.png",
+			"iconSmall": "threerealms/pagoda/kirinSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"upgrades": [
+			"thunderKirin"
+		]
+	},
+	"thunderKirin": {
+		"name": {
+			"singular": "Thunder Kirin",
+			"plural": "Thunder Kirin"
+		},
+		"description": "Herald of storms. Flies, and may call a thunderbolt on the creature it attacks.",
+		"faction": "pagoda",
+		"level": 6,
+		"doubleWide": true,
+		"cost": {
+			"gold": 1200
+		},
+		"speed": 12,
+		"hitPoints": 110,
+		"attack": 18,
+		"defense": 17,
+		"damage": {
+			"min": 18,
+			"max": 26
+		},
+		"growth": 2,
+		"fightValue": 1900,
+		"aiValue": 2420,
+		"advMapAmount": {
+			"min": 4,
+			"max": 6
+		},
+		"hasDoubleWeek": true,
+		"abilities": {
+			"canFly": {
+				"type": "FLYING"
+			},
+			"thunderOnAttack": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": 20
+			},
+			"thunderStrength": {
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype": "spell.thunderbolt",
+				"val": 10
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CThunderKirin.def",
+			"map": "threerealms/pagoda/AVThunderKirin.def",
+			"iconLarge": "threerealms/pagoda/thunderKirinLarge.png",
+			"iconSmall": "threerealms/pagoda/thunderKirinSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		}
+	},
+	"jadeDragon": {
+		"name": {
+			"singular": "Jade Dragon",
+			"plural": "Jade Dragons"
+		},
+		"description": "Wingless serpent of the eastern peaks. Flies, breathes jade fire through two hexes and is immune to Air magic.",
+		"faction": "pagoda",
+		"level": 7,
+		"doubleWide": true,
+		"cost": {
+			"gold": 2600,
+			"gems": 1
+		},
+		"speed": 12,
+		"hitPoints": 170,
+		"attack": 19,
+		"defense": 17,
+		"damage": {
+			"min": 40,
+			"max": 50
+		},
+		"growth": 1,
+		"fightValue": 3700,
+		"aiValue": 4900,
+		"advMapAmount": {
+			"min": 1,
+			"max": 3
+		},
+		"hasDoubleWeek": false,
+		"abilities": {
+			"dragon": {
+				"type": "DRAGON_NATURE"
+			},
+			"canFly": {
+				"type": "FLYING"
+			},
+			"twoHexAttackBreath": {
+				"type": "TWO_HEX_ATTACK_BREATH"
+			},
+			"airImmunity": {
+				"type": "SPELL_SCHOOL_IMMUNITY",
+				"subtype": "air"
+			},
+			"KING_1": {
+				"type": "KING",
+				"val": 0
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/JDRAGON.def",
+			"map": "threerealms/pagoda/AVJDRAG.def",
+			"iconLarge": "threerealms/pagoda/jadeDragonLarge.png",
+			"iconSmall": "threerealms/pagoda/jadeDragonSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		},
+		"upgrades": [
+			"celestialDragon"
+		]
+	},
+	"celestialDragon": {
+		"name": {
+			"singular": "Celestial Dragon",
+			"plural": "Celestial Dragons"
+		},
+		"description": "Dragon of the heavenly court. Flies, breathes fire through two hexes, immune to Air magic and to spells of levels 1-3.",
+		"faction": "pagoda",
+		"level": 7,
+		"doubleWide": true,
+		"cost": {
+			"gold": 3800,
+			"gems": 2
+		},
+		"speed": 17,
+		"hitPoints": 220,
+		"attack": 24,
+		"defense": 22,
+		"damage": {
+			"min": 40,
+			"max": 50
+		},
+		"growth": 1,
+		"fightValue": 5800,
+		"aiValue": 7900,
+		"advMapAmount": {
+			"min": 1,
+			"max": 3
+		},
+		"hasDoubleWeek": false,
+		"abilities": {
+			"dragon": {
+				"type": "DRAGON_NATURE"
+			},
+			"canFly": {
+				"type": "FLYING"
+			},
+			"twoHexAttackBreath": {
+				"type": "TWO_HEX_ATTACK_BREATH"
+			},
+			"airImmunity": {
+				"type": "SPELL_SCHOOL_IMMUNITY",
+				"subtype": "air"
+			},
+			"spellImmunity": {
+				"type": "LEVEL_SPELL_IMMUNITY",
+				"val": 3
+			},
+			"KING_1": {
+				"type": "KING",
+				"val": 0
+			}
+		},
+		"graphics": {
+			"animation": "threerealms/pagoda/CCelestialDragon.def",
+			"map": "threerealms/pagoda/AVCelestialDragon.def",
+			"iconLarge": "threerealms/pagoda/celestialDragonLarge.png",
+			"iconSmall": "threerealms/pagoda/celestialDragonSmall.png",
+			"timeBetweenFidgets": 1.0,
+			"animationTime": {
+				"walk": 1.0,
+				"idle": 10.0,
+				"attack": 1.0
+			}
+		},
+		"sound": {
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		}
+	}
+}
