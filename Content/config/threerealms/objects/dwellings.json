@@ -1,0 +1,804 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"pagodaDwelling1": {
+				"name": "Spear Barracks",
+				"creatures": [
+					[
+						"ashigaru"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPSWOR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/pagoda/AVGP1.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"pagodaDwelling2": {
+				"name": "River Shrine",
+				"creatures": [
+					[
+						"kappa"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPSWOR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/pagoda/AVGP2.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"pagodaDwelling3": {
+				"name": "Crow Pagoda",
+				"creatures": [
+					[
+						"tengu"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPSWOR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/pagoda/AVGP3.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"pagodaDwelling4": {
+				"name": "Fox Shrine",
+				"creatures": [
+					[
+						"kitsune"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPSWOR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/pagoda/AVGP4.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"pagodaDwelling5": {
+				"name": "Oni Cave",
+				"creatures": [
+					[
+						"oni"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPSWOR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/pagoda/AVGP5.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"pagodaDwelling6": {
+				"name": "Cloud Stable",
+				"creatures": [
+					[
+						"kirin"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPSWOR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/pagoda/AVGP6.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"pagodaDwelling7": {
+				"name": "Dragon Tower",
+				"creatures": [
+					[
+						"jadeDragon"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPSWOR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/pagoda/AVGP7.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"sepulcherDwelling1": {
+				"name": "Scarab Nest",
+				"creatures": [
+					[
+						"scarab"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDEAD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/sepulcher/AVGS1.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"sepulcherDwelling2": {
+				"name": "Jackal Barracks",
+				"creatures": [
+					[
+						"jackal"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDEAD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/sepulcher/AVGS2.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"sepulcherDwelling3": {
+				"name": "Sun Chapel",
+				"creatures": [
+					[
+						"priestess"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDEAD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/sepulcher/AVGS3.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"sepulcherDwelling4": {
+				"name": "Sculptors' Yard",
+				"creatures": [
+					[
+						"statue"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDEAD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/sepulcher/AVGS4.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"sepulcherDwelling5": {
+				"name": "Serpent Shrine",
+				"creatures": [
+					[
+						"uraeus"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDEAD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/sepulcher/AVGS5.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"sepulcherDwelling6": {
+				"name": "Devourer's Pit",
+				"creatures": [
+					[
+						"ammit"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDEAD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/sepulcher/AVGS6.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"sepulcherDwelling7": {
+				"name": "Great Pyramid",
+				"creatures": [
+					[
+						"sphinx"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDEAD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/sepulcher/AVGS7.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"myceliumDwelling1": {
+				"name": "Spore Bed",
+				"creatures": [
+					[
+						"sporeling"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONS"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/mycelium/AVGM1.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"myceliumDwelling2": {
+				"name": "Creeper Hollow",
+				"creatures": [
+					[
+						"creeper"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONS"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/mycelium/AVGM2.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"myceliumDwelling3": {
+				"name": "Mold Burrow",
+				"creatures": [
+					[
+						"spitter"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONS"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/mycelium/AVGM3.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"myceliumDwelling4": {
+				"name": "Weaving Cave",
+				"creatures": [
+					[
+						"mycelgolem"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONS"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/mycelium/AVGM4.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"myceliumDwelling5": {
+				"name": "Troll Den",
+				"creatures": [
+					[
+						"rottroll"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONS"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/mycelium/AVGM5.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"myceliumDwelling6": {
+				"name": "Mother's Grotto",
+				"creatures": [
+					[
+						"sporemother"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONS"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/mycelium/AVGM6.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			},
+			"myceliumDwelling7": {
+				"name": "Colossus Cap",
+				"creatures": [
+					[
+						"colossus"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONS"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "threerealms/mycelium/AVGM7.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB",
+							"VAA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						]
+					}
+				}
+			}
+		}
+	}
+}
